@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1794
-NormalPos.bottom=659
+NormalPos.right=818
+NormalPos.bottom=654
 Class=LaTeXView
 Document=omment ne pas apprendre à jouer aux échecs book.tex
 
 [Frame0_View0,0]
-TopLine=966
-Cursor=43275
+TopLine=1643
+Cursor=62031
 
 [SessionInfo]
 FrameCount=1

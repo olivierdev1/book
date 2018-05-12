@@ -1,10 +1,10 @@
-markmoves
-topborder
 straightmove
+topborder
+markmoves
 hidepieces
 normalboard
-markregion
 leftborder
+markregion
 setwhite
 pgfstyle
 showmover
@@ -16,3 +16,6 @@ lenny
 rejne
 sonny
 conny
+Etant
+scriptsize
+Largeboard

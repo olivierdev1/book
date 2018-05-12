@@ -1258,85 +1258,205 @@ Dans cet exemple, le cavalier va pouvoir attaquer la tour pendant que la dame at
 %___________________________________________________________________________________________________________________________
 \chapter{Le moulinet}
 
-Le moulinet est une man\oe{}uvre tactique qui permet à un joueur d’enchaîner les échecs à la découverte. Cette man\oe{}uvre permet souvent à vider l'échiquier.
+Le moulinet est une man\oe{}uvre tactique qui permet à un joueur d’enchaîner les échecs à la découverte. elle s'effectue généralement avec une tour et un fou. \\ Cette man\oe{}uvre permet souvent de vider l'échiquier.
 
 \begin{center}
-
 \def\whitepieces{Kg1,Rg3,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
 \chessboard[setwhite=\whitepieces,
 addblack={Kg8,Ra8,Ba7,Bd7,Nf8,pg7,pf7,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
-
 \end{center}
 
-Dans cette position, les blancs commencent par prendre le pion en g7 avec la tour et amorcent une succession d'échecs à la découverte. 
+\newpage
+
+Dans cette position, les blancs commencent par jouer \wmove{Rxg7+} et amorcent une succession d'échecs à la découverte. 
 
 \begin{center}
-
 \def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
 \chessboard[setwhite=\whitepieces,
 addblack={Kg8,Ra8,Ba7,Bd7,Nf8,pf7,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
-
 \end{center}
 
-Après le mouvement du roi noir en h8, 
+\textit{Je vous conseille de prendre un échiquier et d'y placer la position afin de pouvoir la suivre sur celui-ci en même temps que sur les diagrammes.}
+
+\newpage
 
 \begin{center}
-
+Après \bmove{Kh8},
 \def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
 \chessboard[setwhite=\whitepieces,
 addblack={Kh8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6,pf7},smallboard,showmover=false]
+%\end{center}
 
-\end{center}
-
-les blancs n'ont plus qu'à jouer \wmove{Rf7}.
-
-\begin{center}
-
+%\begin{center}
+les blancs peuvent jouer \wmove{Rxf7+}.
 \def\whitepieces{Kg1,Rf7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
 \chessboard[setwhite=\whitepieces,
 addblack={Kh8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
 
-\end{center}
+%\newpage
 
+%\begin{center}
 \bmove{Kg8}
-
-\begin{center}
-
 \def\whitepieces{Kg1,Rf7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
 \chessboard[setwhite=\whitepieces,
 addblack={Kg8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
 
-\end{center}
-
-\wmove{Rg7}
-
-\begin{center}
-
+%\begin{center}
+\wmove{Rg7+}
 \def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
 \chessboard[setwhite=\whitepieces,
 addblack={Kg8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
 
-\end{center}
+%\newpage
 
+%\begin{center}
 \bmove{Kh8}
-
-\begin{center}
-
 \def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
 \chessboard[setwhite=\whitepieces,
 addblack={Kh8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
 
-\end{center}
-
-\wmove{RxBd7}
-
-\begin{center}
-
+%\begin{center}
+\wmove{RxBd7+}
 \def\whitepieces{Kg1,Rd7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
 \chessboard[setwhite=\whitepieces,
 addblack={Kh8,Ra8,Ba7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
-
 \end{center}
+
+\newpage
+
+\begin{center}
+\bmove{Kg8}
+\def\whitepieces{Kg1,Rd7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\begin{center}
+\wmove{Rg7+}
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\newpage
+
+%\begin{center}
+\bmove{Kh8}
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\begin{center}
+\wmove{Rxc7+}
+\def\whitepieces{Kg1,Rc7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Nf8,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\newpage
+
+%\begin{center}
+\bmove{Kg8}
+\def\whitepieces{Kg1,Rc7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Nf8,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\begin{center}
+\wmove{Rg7+}
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Nf8,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+\end{center}
+
+\newpage
+
+\begin{center}
+\bmove{Kh8}
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Nf8,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\begin{center}
+\wmove{Rb7+}
+\def\whitepieces{Kg1,Rb7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\newpage
+
+%\begin{center}
+\bmove{Kg8}
+\def\whitepieces{Kg1,Rb7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\begin{center}
+\wmove{Rg7+}
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\newpage
+
+%\begin{center}
+\bmove{Kh8}
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\begin{center}
+\wmove{RxBa7+}
+\def\whitepieces{Kg1,Ra7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+\end{center}
+
+\newpage
+
+\begin{center}
+\wmove{Kg8}
+\def\whitepieces{Kg1,Ra7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\begin{center}
+\wmove{Rg7+}
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\newpage
+
+%\begin{center}
+\wmove{Kh8}
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+%\end{center}
+
+%\begin{center}
+\wmove{Rd7+}
+\def\whitepieces{Kg1,Rd7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Nf8,Qd8,pa6,ph6},smallboard,showmover=false]
+\end{center}
+
+et la dame est perdue au coup suivant.
+
+
 
 %___________________________________________________________________________________________________________________________
 

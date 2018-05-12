@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  12 MAY 2018 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.17)  12 MAY 2018 23:20
 entering extended mode
 **"./omment ne pas apprendre Ã  jouer aux Ã©checs book.tex"
 ("omment ne pas apprendre Ã  jouer aux Ã©checs book.tex"
@@ -2260,140 +2260,55 @@ Underfull \hbox (badness 2809) in paragraph at lines 1271--1272
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 1271--1272
-\T1/lmr/m/n/10 g7 avec la tour et amorcent une
+Underfull \hbox (badness 2165) in paragraph at lines 1271--1272
+\T1/lmr/m/n/10 com-mencent par jouer \LSI/skaknew/bx/n/10 RX\T1/lmr/bx/n/10 g7\LSI/skaknew/bx/n/10 + \T1/lmr/m/n/10 et
  []
 
-
-Underfull \vbox (badness 1371) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33
+[33
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1515) has occurred while \output is active []
+
+ [34] [35]
+Underfull \vbox (badness 1515) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1515) has occurred while \output is active []
 
- [34] [35
-
-]
+ [36] [37]
  6.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1343--1343
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1463--1463
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1345
+Underfull \hbox (badness 10000) in paragraph at lines 1465--1465
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1345--1345
+Underfull \hbox (badness 5374) in paragraph at lines 1465--1465
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1345
+Underfull \hbox (badness 10000) in paragraph at lines 1465--1465
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1345--1345
+Underfull \hbox (badness 10000) in paragraph at lines 1465--1465
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1345--1345
+Underfull \hbox (badness 3009) in paragraph at lines 1465--1465
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1345--1345
-\T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
- []
-
-[36
-
-
-]
- 7.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1348--1348
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1350
-[]\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 1350--1350
-\T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1350
-\T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1350--1350
-\T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 1350--1350
-\T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 1350--1350
-\T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
- []
-
-[37
-
-
-]
- 8.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1353--1353
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1355--1355
-[]\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 1355--1355
-\T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1355--1355
-\T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1355--1355
-\T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
- []
-
-
-Underfull \hbox (badness 3009) in paragraph at lines 1355--1355
-\T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 1355--1355
+Underfull \hbox (badness 1688) in paragraph at lines 1465--1465
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2401,39 +2316,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1355--1355
 
 
 ]
- 9.
+ 7.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1358--1358
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1468--1468
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1360
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1360--1360
+Underfull \hbox (badness 5374) in paragraph at lines 1470--1470
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1360
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1360
+Underfull \hbox (badness 10000) in paragraph at lines 1470--1470
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1360--1360
+Underfull \hbox (badness 3009) in paragraph at lines 1470--1470
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1360--1360
+Underfull \hbox (badness 1688) in paragraph at lines 1470--1470
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2441,39 +2356,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1360--1360
 
 
 ]
- 10.
+ 8.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1363--1363
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1473--1473
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1365--1365
+Underfull \hbox (badness 10000) in paragraph at lines 1475--1475
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1365--1365
+Underfull \hbox (badness 5374) in paragraph at lines 1475--1475
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1365--1365
+Underfull \hbox (badness 10000) in paragraph at lines 1475--1475
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1365--1365
+Underfull \hbox (badness 10000) in paragraph at lines 1475--1475
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1365--1365
+Underfull \hbox (badness 3009) in paragraph at lines 1475--1475
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1365--1365
+Underfull \hbox (badness 1688) in paragraph at lines 1475--1475
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2481,39 +2396,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1365--1365
 
 
 ]
- 11.
+ 9.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1368--1368
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1478--1478
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1370
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1480
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1370--1370
+Underfull \hbox (badness 5374) in paragraph at lines 1480--1480
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1370
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1480
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1370
+Underfull \hbox (badness 10000) in paragraph at lines 1480--1480
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1370--1370
+Underfull \hbox (badness 3009) in paragraph at lines 1480--1480
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1370--1370
+Underfull \hbox (badness 1688) in paragraph at lines 1480--1480
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2521,39 +2436,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1370--1370
 
 
 ]
- 12.
+ 10.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1373--1373
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1483--1483
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1375
+Underfull \hbox (badness 10000) in paragraph at lines 1485--1485
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1375--1375
+Underfull \hbox (badness 5374) in paragraph at lines 1485--1485
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1375
+Underfull \hbox (badness 10000) in paragraph at lines 1485--1485
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1375
+Underfull \hbox (badness 10000) in paragraph at lines 1485--1485
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1375--1375
+Underfull \hbox (badness 3009) in paragraph at lines 1485--1485
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1375--1375
+Underfull \hbox (badness 1688) in paragraph at lines 1485--1485
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2561,39 +2476,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1375--1375
 
 
 ]
- 13.
+ 11.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1378--1378
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1488--1488
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1380--1380
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1490
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1380--1380
+Underfull \hbox (badness 5374) in paragraph at lines 1490--1490
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1380--1380
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1490
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1380--1380
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1490
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1380--1380
+Underfull \hbox (badness 3009) in paragraph at lines 1490--1490
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1380--1380
+Underfull \hbox (badness 1688) in paragraph at lines 1490--1490
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2601,39 +2516,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1380--1380
 
 
 ]
- 14.
+ 12.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1383--1383
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1493--1493
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1495--1495
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1385--1385
+Underfull \hbox (badness 5374) in paragraph at lines 1495--1495
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1495--1495
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1385--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1495--1495
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1385--1385
+Underfull \hbox (badness 3009) in paragraph at lines 1495--1495
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1385--1385
+Underfull \hbox (badness 1688) in paragraph at lines 1495--1495
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2641,39 +2556,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1385--1385
 
 
 ]
- 15.
+ 13.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1388--1388
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1498--1498
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1500
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1390--1390
+Underfull \hbox (badness 5374) in paragraph at lines 1500--1500
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1500
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1390
+Underfull \hbox (badness 10000) in paragraph at lines 1500--1500
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1390--1390
+Underfull \hbox (badness 3009) in paragraph at lines 1500--1500
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1390--1390
+Underfull \hbox (badness 1688) in paragraph at lines 1500--1500
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2681,39 +2596,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1390--1390
 
 
 ]
- 16.
+ 14.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1393--1393
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1503--1503
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1395
+Underfull \hbox (badness 10000) in paragraph at lines 1505--1505
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1395--1395
+Underfull \hbox (badness 5374) in paragraph at lines 1505--1505
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1395
+Underfull \hbox (badness 10000) in paragraph at lines 1505--1505
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1395--1395
+Underfull \hbox (badness 10000) in paragraph at lines 1505--1505
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1395--1395
+Underfull \hbox (badness 3009) in paragraph at lines 1505--1505
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1395--1395
+Underfull \hbox (badness 1688) in paragraph at lines 1505--1505
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2721,39 +2636,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1395--1395
 
 
 ]
- 17.
+ 15.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1398--1398
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1508--1508
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1400--1400
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1510
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1400--1400
+Underfull \hbox (badness 5374) in paragraph at lines 1510--1510
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1400--1400
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1510
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1400--1400
+Underfull \hbox (badness 10000) in paragraph at lines 1510--1510
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1400--1400
+Underfull \hbox (badness 3009) in paragraph at lines 1510--1510
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1400--1400
+Underfull \hbox (badness 1688) in paragraph at lines 1510--1510
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2761,39 +2676,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1400--1400
 
 
 ]
- 18.
+ 16.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1403--1403
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1513--1513
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1405--1405
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1515
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1405--1405
+Underfull \hbox (badness 5374) in paragraph at lines 1515--1515
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1405--1405
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1515
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1405--1405
+Underfull \hbox (badness 10000) in paragraph at lines 1515--1515
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1405--1405
+Underfull \hbox (badness 3009) in paragraph at lines 1515--1515
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1405--1405
+Underfull \hbox (badness 1688) in paragraph at lines 1515--1515
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2801,39 +2716,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1405--1405
 
 
 ]
- 19.
+ 17.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1408--1408
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1518--1518
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1410--1410
+Underfull \hbox (badness 10000) in paragraph at lines 1520--1520
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1410--1410
+Underfull \hbox (badness 5374) in paragraph at lines 1520--1520
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1410--1410
+Underfull \hbox (badness 10000) in paragraph at lines 1520--1520
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1410--1410
+Underfull \hbox (badness 10000) in paragraph at lines 1520--1520
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1410--1410
+Underfull \hbox (badness 3009) in paragraph at lines 1520--1520
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1410--1410
+Underfull \hbox (badness 1688) in paragraph at lines 1520--1520
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2841,39 +2756,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1410--1410
 
 
 ]
- 20.
+ 18.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1411--1411
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1523--1523
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1414--1414
+Underfull \hbox (badness 10000) in paragraph at lines 1525--1525
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1414--1414
+Underfull \hbox (badness 5374) in paragraph at lines 1525--1525
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1414--1414
+Underfull \hbox (badness 10000) in paragraph at lines 1525--1525
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1414--1414
+Underfull \hbox (badness 10000) in paragraph at lines 1525--1525
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1414--1414
+Underfull \hbox (badness 3009) in paragraph at lines 1525--1525
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1414--1414
+Underfull \hbox (badness 1688) in paragraph at lines 1525--1525
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2881,39 +2796,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1414--1414
 
 
 ]
- 21.
+ 19.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1415--1415
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1528--1528
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1417--1417
+Underfull \hbox (badness 10000) in paragraph at lines 1530--1530
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1417--1417
+Underfull \hbox (badness 5374) in paragraph at lines 1530--1530
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1417--1417
+Underfull \hbox (badness 10000) in paragraph at lines 1530--1530
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1417--1417
+Underfull \hbox (badness 10000) in paragraph at lines 1530--1530
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1417--1417
+Underfull \hbox (badness 3009) in paragraph at lines 1530--1530
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1417--1417
+Underfull \hbox (badness 1688) in paragraph at lines 1530--1530
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2921,39 +2836,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1417--1417
 
 
 ]
- 22.
+ 20.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1420--1420
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1531--1531
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1424--1424
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1534
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1424--1424
+Underfull \hbox (badness 5374) in paragraph at lines 1534--1534
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1424--1424
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1534
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1424--1424
+Underfull \hbox (badness 10000) in paragraph at lines 1534--1534
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1424--1424
+Underfull \hbox (badness 3009) in paragraph at lines 1534--1534
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1424--1424
+Underfull \hbox (badness 1688) in paragraph at lines 1534--1534
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -2961,39 +2876,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1424--1424
 
 
 ]
- 23.
+ 21.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1425--1425
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1535--1535
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1427--1427
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1537
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1427--1427
+Underfull \hbox (badness 5374) in paragraph at lines 1537--1537
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1427--1427
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1537
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1427--1427
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1537
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1427--1427
+Underfull \hbox (badness 3009) in paragraph at lines 1537--1537
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1427--1427
+Underfull \hbox (badness 1688) in paragraph at lines 1537--1537
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -3001,39 +2916,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1427--1427
 
 
 ]
- 24.
+ 22.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1430--1430
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1540--1540
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1431--1431
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1431--1431
+Underfull \hbox (badness 5374) in paragraph at lines 1544--1544
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1431--1431
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1431--1431
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1431--1431
+Underfull \hbox (badness 3009) in paragraph at lines 1544--1544
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1431--1431
+Underfull \hbox (badness 1688) in paragraph at lines 1544--1544
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -3041,39 +2956,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1431--1431
 
 
 ]
- 25.
+ 23.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1433--1433
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1545--1545
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1435--1435
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1435--1435
+Underfull \hbox (badness 5374) in paragraph at lines 1547--1547
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1435--1435
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1435--1435
+Underfull \hbox (badness 10000) in paragraph at lines 1547--1547
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1435--1435
+Underfull \hbox (badness 3009) in paragraph at lines 1547--1547
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1435--1435
+Underfull \hbox (badness 1688) in paragraph at lines 1547--1547
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -3081,39 +2996,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1435--1435
 
 
 ]
- 26.
+ 24.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1438--1438
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1550--1550
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1440--1440
+Underfull \hbox (badness 5374) in paragraph at lines 1551--1551
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1440--1440
+Underfull \hbox (badness 10000) in paragraph at lines 1551--1551
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1440--1440
+Underfull \hbox (badness 3009) in paragraph at lines 1551--1551
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1440--1440
+Underfull \hbox (badness 1688) in paragraph at lines 1551--1551
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -3121,39 +3036,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1440--1440
 
 
 ]
- 27.
+ 25.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1443--1443
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1553--1553
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1445--1445
+Underfull \hbox (badness 10000) in paragraph at lines 1555--1555
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1445--1445
+Underfull \hbox (badness 5374) in paragraph at lines 1555--1555
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1445--1445
+Underfull \hbox (badness 10000) in paragraph at lines 1555--1555
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1445--1445
+Underfull \hbox (badness 10000) in paragraph at lines 1555--1555
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1445--1445
+Underfull \hbox (badness 3009) in paragraph at lines 1555--1555
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1445--1445
+Underfull \hbox (badness 1688) in paragraph at lines 1555--1555
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -3161,39 +3076,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1445--1445
 
 
 ]
- 28.
+ 26.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1448--1448
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1558--1558
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1450--1450
+Underfull \hbox (badness 10000) in paragraph at lines 1560--1560
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1450--1450
+Underfull \hbox (badness 5374) in paragraph at lines 1560--1560
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1450--1450
+Underfull \hbox (badness 10000) in paragraph at lines 1560--1560
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1450--1450
+Underfull \hbox (badness 10000) in paragraph at lines 1560--1560
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1450--1450
+Underfull \hbox (badness 3009) in paragraph at lines 1560--1560
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1450--1450
+Underfull \hbox (badness 1688) in paragraph at lines 1560--1560
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -3201,39 +3116,39 @@ Underfull \hbox (badness 1688) in paragraph at lines 1450--1450
 
 
 ]
- 29.
+ 27.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1453--1453
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1563--1563
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1455--1455
+Underfull \hbox (badness 10000) in paragraph at lines 1565--1565
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1455--1455
+Underfull \hbox (badness 5374) in paragraph at lines 1565--1565
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1455--1455
+Underfull \hbox (badness 10000) in paragraph at lines 1565--1565
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1455--1455
+Underfull \hbox (badness 10000) in paragraph at lines 1565--1565
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1455--1455
+Underfull \hbox (badness 3009) in paragraph at lines 1565--1565
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1455--1455
+Underfull \hbox (badness 1688) in paragraph at lines 1565--1565
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
@@ -3241,626 +3156,309 @@ Underfull \hbox (badness 1688) in paragraph at lines 1455--1455
 
 
 ]
- 30.
+ 28.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1458--1458
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1568--1568
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1460--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1570
 []\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1460--1460
+Underfull \hbox (badness 5374) in paragraph at lines 1570--1570
 \T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1460--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1570
 \T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1460--1460
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1570
 \T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 1460--1460
+Underfull \hbox (badness 3009) in paragraph at lines 1570--1570
 \T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
  []
 
 
-Underfull \hbox (badness 1688) in paragraph at lines 1460--1460
+Underfull \hbox (badness 1688) in paragraph at lines 1570--1570
 \T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
 [60
 
 
-] [61
+]
+ 29.
 
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1469 \chapter{Mat avec la tour}
-                                 
- 1.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1469--1469
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1573--1573
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1471--1472
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+Underfull \hbox (badness 10000) in paragraph at lines 1575--1575
+[]\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 1575--1575
+\T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1575--1575
+\T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1575--1575
+\T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 1575--1575
+\T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 1575--1575
+\T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
+ []
+
+[61
+
+
+]
+ 30.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1578--1578
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1580--1580
+[]\T1/lmr/m/n/10 Quisque ul-lam-cor-per pla-ce-rat
+ []
+
+
+Underfull \hbox (badness 5374) in paragraph at lines 1580--1580
+\T1/lmr/m/n/10 adi-pis-cing elit. In hac ha-bi-tasse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1580--1580
+\T1/lmr/m/n/10 pla-tea dic-tumst. In-te-ger tem-pus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1580--1580
+\T1/lmr/m/n/10 conval-lis augue. Etiam fa-ci-li-sis.
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 1580--1580
+\T1/lmr/m/n/10 Nunc ele-men-tum fer-men-tum wisi.
+ []
+
+
+Underfull \hbox (badness 1688) in paragraph at lines 1580--1580
+\T1/lmr/m/n/10 sed gra-vida sol-li-ci-tu-din, fe-lis odio
  []
 
 [62
 
 
+] [63
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) has been already used, duplicate ignored
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1475 \chapter{Mat avec 2 tours}
+l.1589 \chapter{Mat avec la tour}
                                  
- 2.
+ 1.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1475--1475
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1589--1589
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1477--1478
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[63
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1481 \chapter{Mat avec la dame}
-                                 
- 3.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1481--1481
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1483--1484
+Underfull \hbox (badness 1668) in paragraph at lines 1591--1592
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
 [64
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.4}) has been already used, duplicate ignored
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1487 \chapter{Mat avec 2 fous}
-                                
- 4.
+l.1595 \chapter{Mat avec 2 tours}
+                                 
+ 2.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1487--1487
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1595--1595
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1489--1490
+Underfull \hbox (badness 1668) in paragraph at lines 1597--1598
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
 [65
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.5}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1493 \chapter{Mat avec fou et cavalier}
-                                         
- 5.
+l.1601 \chapter{Mat avec la dame}
+                                 
+ 3.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1493--1493
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1601--1601
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1495--1496
+Underfull \hbox (badness 1668) in paragraph at lines 1603--1604
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
 [66
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.6}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1499 \chapter{Mat avec 2 cavaliers}
-                                     
- 6.
+l.1607 \chapter{Mat avec 2 fous}
+                                
+ 4.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1499--1499
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1607--1607
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1501--1502
+Underfull \hbox (badness 1668) in paragraph at lines 1609--1610
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
 [67
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.7}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1505 \chapter{Mat avec roi et pions}
-                                      
- 7.
+l.1613 \chapter{Mat avec fou et cavalier}
+                                         
+ 5.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1505--1505
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1613--1613
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1507--1508
+Underfull \hbox (badness 1668) in paragraph at lines 1615--1616
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
 [68
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.8}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1511 \chapter{Mat avec fou et pion}
+l.1619 \chapter{Mat avec 2 cavaliers}
                                      
- 8.
+ 6.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1511--1511
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1619--1619
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1513--1514
+Underfull \hbox (badness 1668) in paragraph at lines 1621--1622
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
 [69
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.9}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1517 \chapter{Mat avec cavalier et pion}
-                                          
- 9.
+l.1625 \chapter{Mat avec roi et pions}
+                                      
+ 7.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1517--1517
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1625--1625
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1519--1520
+Underfull \hbox (badness 1668) in paragraph at lines 1627--1628
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
 [70
 
 
-] [71
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1528 \chapter{Mat du sot}
-                           
- 1.
+l.1631 \chapter{Mat avec fou et pion}
+                                     
+ 8.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1528--1528
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1631--1631
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 1530--1531
+Underfull \hbox (badness 1668) in paragraph at lines 1633--1634
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[71
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1637 \chapter{Mat avec cavalier et pion}
+                                          
+ 9.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1637--1637
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1639--1640
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
 [72
 
 
+] [73
 
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) has been already used, duplicate ignored
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1534 \chapter{Mat du berger}
-                              
- 2.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1534--1534
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1536--1537
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[73
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1540 \chapter{Mat de Legall}
-                              
- 3.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1540--1540
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1542--1543
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[74
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1546 \chapter{Mat arabe}
-                          
- 4.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1546--1546
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1548--1549
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[75
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1552 \chapter{Mat de l'angle}
-                               
- 5.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1552--1552
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1554--1555
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[76
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1558 \chapter{Mat du baiser de la mort}
-                                         
- 6.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1558--1558
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1560--1561
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[77
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1564 \chapter{Mat d'Anderssen}
-                                
- 7.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1564--1564
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1566--1567
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[78
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1570 \chapter{Mat de Damiano}
-                               
- 8.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1570--1570
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1572--1573
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[79
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.9}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1576 \chapter{Mat de Greco}
-                             
- 9.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 1576.
-
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1576--1576
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1578--1579
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[80
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.10}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1582 \chapter{Mat de Pillsbury}
-                                 
- 10.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1582--1582
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1584--1585
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[81
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.11}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1588 \chapter{Mat de Lolli}
-                             
- 11.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1588--1588
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1590--1591
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[82
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.12}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1594 \chapter{Mat des Ã©paulettes}
-                                    
- 12.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1594--1594
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1596--1597
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[83
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.13}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1600 \chapter{Mat du gueridon}
-                                
- 13.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1600--1600
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1602--1603
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[84
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.14}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1606 \chapter{Mat de Boden}
-                             
- 14.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1606--1606
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1608--1609
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[85
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.15}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1612 \chapter{Mat d'Anastasie}
-                                
- 15.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1612--1612
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1614--1615
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[86
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.16}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1618 \chapter{Mat de Morphy}
-                              
- 16.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1618--1618
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1620--1621
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[87
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.17}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1624 \chapter{Mat de Blackburne}
-                                  
- 17.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1624--1624
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1626--1627
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[88
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.18}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1630 \chapter{Mat de Mayet}
-                             
- 18.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1630--1630
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1632--1633
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[89
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.19}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1636 \chapter{Mat de l'opÃ©ra}
-                                
- 19.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1636--1636
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1638--1639
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[90
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.20}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1642 \chapter{Mat de RÃ©ti}
-                             
- 20.
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1642--1642
-[][][][][][][][][]  
- []
-
-
-Underfull \hbox (badness 1668) in paragraph at lines 1644--1645
-[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
- []
-
-[91
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{chapter.21}) has been already used, duplicate ignored
-
-<to be read again> 
-                   \relax 
-l.1648 \chapter{Mat de Calabrais}
-                                 
- 21.
+l.1648 \chapter{Mat du sot}
+                           
+ 1.
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1648--1648
 [][][][][][][][][]  
@@ -3871,56 +3469,453 @@ Underfull \hbox (badness 1668) in paragraph at lines 1650--1651
 []\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
  []
 
+[74
+
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1654 \chapter{Mat du berger}
+                              
+ 2.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1654--1654
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1656--1657
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[75
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1660 \chapter{Mat de Legall}
+                              
+ 3.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1660--1660
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1662--1663
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[76
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1666 \chapter{Mat arabe}
+                          
+ 4.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1666--1666
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1668--1669
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[77
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1672 \chapter{Mat de l'angle}
+                               
+ 5.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1672--1672
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1674--1675
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[78
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1678 \chapter{Mat du baiser de la mort}
+                                         
+ 6.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1678--1678
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1680--1681
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[79
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1684 \chapter{Mat d'Anderssen}
+                                
+ 7.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1684--1684
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1686--1687
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[80
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1690 \chapter{Mat de Damiano}
+                               
+ 8.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1690--1690
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1692--1693
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[81
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1696 \chapter{Mat de Greco}
+                             
+ 9.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 1696.
+
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1696--1696
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1698--1699
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[82
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.10}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1702 \chapter{Mat de Pillsbury}
+                                 
+ 10.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1702--1702
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1704--1705
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[83
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.11}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1708 \chapter{Mat de Lolli}
+                             
+ 11.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1708--1708
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1710--1711
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[84
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.12}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1714 \chapter{Mat des Ã©paulettes}
+                                    
+ 12.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1714--1714
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1716--1717
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[85
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.13}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1720 \chapter{Mat du gueridon}
+                                
+ 13.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1720--1720
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1722--1723
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[86
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.14}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1726 \chapter{Mat de Boden}
+                             
+ 14.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1726--1726
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1728--1729
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[87
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.15}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1732 \chapter{Mat d'Anastasie}
+                                
+ 15.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1732--1732
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1734--1735
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[88
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.16}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1738 \chapter{Mat de Morphy}
+                              
+ 16.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1738--1738
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1740--1741
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[89
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.17}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1744 \chapter{Mat de Blackburne}
+                                  
+ 17.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1744--1744
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1746--1747
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[90
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.18}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1750 \chapter{Mat de Mayet}
+                             
+ 18.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1750--1750
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1752--1753
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[91
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.19}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1756 \chapter{Mat de l'opÃ©ra}
+                                
+ 19.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1756--1756
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1758--1759
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
 [92
 
 
-] [93
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.20}) has been already used, duplicate ignored
 
-] [94
+<to be read again> 
+                   \relax 
+l.1762 \chapter{Mat de RÃ©ti}
+                             
+ 20.
 
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1762--1762
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1764--1765
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[93
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{chapter.21}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.1768 \chapter{Mat de Calabrais}
+                                 
+ 21.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1768--1768
+[][][][][][][][][]  
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 1770--1771
+[]\T1/lmr/m/n/10 Le roi ne peut pas pas-ser au-
+ []
+
+[94
 
 
 ] [95
+
+] [96
+
+
+
+] [97
 
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{chapter.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1675 \chapter{Les 3 phases de jeu}
+l.1795 \chapter{Les 3 phases de jeu}
                                     
  1.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 1675--1675
+Overfull \hbox (10.0pt too wide) in paragraph at lines 1795--1795
 [][][][][][][][][]  
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 1689--1690
+Underfull \hbox (badness 4713) in paragraph at lines 1809--1810
 \T1/lmr/m/n/10 maîtres, et qui nous per-mettent
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 1689--1690
+Underfull \hbox (badness 3291) in paragraph at lines 1809--1810
 \T1/lmr/m/n/10 de jouer ces 3 phases avec des
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 1689--1690
+Underfull \hbox (badness 2564) in paragraph at lines 1809--1810
 \T1/lmr/m/n/10 sont pas ab-so-lues et peuvent de
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 1689--1690
+Underfull \hbox (badness 1112) in paragraph at lines 1809--1810
 \T1/lmr/m/n/10 est in-té-res-sant de s'éver-tuer à les
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 1689--1690
+Underfull \hbox (badness 2302) in paragraph at lines 1809--1810
 \T1/lmr/m/n/10 ci sur une po-si-tion qui né-ces-site
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 1689--1690
+Underfull \hbox (badness 1337) in paragraph at lines 1809--1810
 \T1/lmr/m/n/10 à dé-ro-ger à la règle car dans la
  []
 
@@ -3928,72 +3923,72 @@ pdfTeX warning (ext4): destination with the same identifier (name{section.0.1}) 
 
 <to be read again> 
                    \relax 
-l.1691 \section{Les ouvertures}
+l.1811 \section{Les ouvertures}
                                
-Underfull \hbox (badness 6094) in paragraph at lines 1696--1697
+Underfull \hbox (badness 6094) in paragraph at lines 1816--1817
 []\T1/lmr/m/n/10 Vous pour-rez trou-ver dans le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1696--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1816--1817
 \T1/lmr/m/n/10 vous pré-sen-tant telle ou telle
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 1696--1697
+Underfull \hbox (badness 5533) in paragraph at lines 1816--1817
 \T1/lmr/m/n/10 ou-ver-ture, je ne pré-sen-te-rai pas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1696--1697
+Underfull \hbox (badness 10000) in paragraph at lines 1816--1817
 \T1/lmr/m/n/10 d'ou-ver-ture spé-ci-fique dans cet
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 1698--1699
+Underfull \hbox (badness 4328) in paragraph at lines 1818--1819
 []\T1/lmr/m/n/10 Comme dit l'adage, donne un
  []
 
-[96
+[98
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1702--1702
+Underfull \hbox (badness 10000) in paragraph at lines 1822--1822
 []\T1/lmr/bx/n/12 Les 10 règles
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 1713--1714
+Underfull \hbox (badness 1521) in paragraph at lines 1833--1834
 [] \T1/lmr/bx/n/10 Ou-vrez avec un pion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+Underfull \hbox (badness 10000) in paragraph at lines 1837--1838
 [] \T1/lmr/m/n/10 Ima-gi-nez l'échi-quier
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1717--1718
+Underfull \hbox (badness 10000) in paragraph at lines 1837--1838
 
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 1719--1722
+Underfull \hbox (badness 3965) in paragraph at lines 1839--1842
 \T1/lmr/m/n/10 contre-attaquer une of-fen-sive
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 1719--1722
+Underfull \hbox (badness 5924) in paragraph at lines 1839--1842
 \T1/lmr/m/n/10 à l'aile si votre ad-ver-saire
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1719--1722
+Underfull \hbox (badness 10000) in paragraph at lines 1839--1842
 
  []
 
 
-Overfull \hbox (12.12875pt too wide) in paragraph at lines 1726--1730
+Overfull \hbox (12.12875pt too wide) in paragraph at lines 1846--1850
  [][][][][][][] 
  []
 
@@ -4001,352 +3996,352 @@ Overfull \hbox (12.12875pt too wide) in paragraph at lines 1726--1730
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \hbox (12.12875pt too wide) in paragraph at lines 1750--1754
+Overfull \hbox (12.12875pt too wide) in paragraph at lines 1870--1874
  [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1766--1767
+Underfull \hbox (badness 10000) in paragraph at lines 1886--1887
 [] \T1/lmr/m/n/10 Tous les coups avec
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 1766--1767
+Underfull \hbox (badness 5388) in paragraph at lines 1886--1887
 \T1/lmr/m/n/10 une me-nace for-ce-ront votre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1766--1767
+Underfull \hbox (badness 10000) in paragraph at lines 1886--1887
 \T1/lmr/m/n/10 ad-ver-saire à ré-pondre en
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 1766--1767
+Underfull \hbox (badness 1571) in paragraph at lines 1886--1887
 \T1/lmr/m/n/10 Lorsque vous dé-ve-lop-pez vos
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 1766--1767
+Underfull \hbox (badness 1281) in paragraph at lines 1886--1887
 \T1/lmr/m/n/10 plus son choix sera res-treint
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 1766--1767
+Underfull \hbox (badness 4001) in paragraph at lines 1886--1887
 \T1/lmr/m/n/10 plus il vous sera fa-cile de
  []
 
-[97]
-Overfull \hbox (12.12875pt too wide) in paragraph at lines 1774--1775
+[99]
+Overfull \hbox (12.12875pt too wide) in paragraph at lines 1894--1895
  [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1784--1785
+Underfull \hbox (badness 10000) in paragraph at lines 1904--1905
 [] \T1/lmr/bx/n/10 Sor-tez les ca-va-liers
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 1788--1789
+Underfull \hbox (badness 3895) in paragraph at lines 1908--1909
 \T1/lmr/m/n/10 de dé-ve-lop-pe-ment alors que
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 1788--1789
+Underfull \hbox (badness 4341) in paragraph at lines 1908--1909
 \T1/lmr/m/n/10 le fou dis-pose de 7 cases.
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 1788--1789
+Underfull \hbox (badness 1460) in paragraph at lines 1908--1909
 \T1/lmr/m/n/10 cases pos-sibles seules 2 sont
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 1788--1789
+Underfull \hbox (badness 2478) in paragraph at lines 1908--1909
 \T1/lmr/m/n/10 en train de voir. La 3ème,
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 1788--1789
+Underfull \hbox (badness 1019) in paragraph at lines 1908--1909
 \T1/lmr/m/n/10 place le ca-va-lier au bord de
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 1790--1791
+Underfull \hbox (badness 3396) in paragraph at lines 1910--1911
 [] \T1/lmr/m/n/10 Pour le fou, sur les 7
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 1790--1791
+Underfull \hbox (badness 2790) in paragraph at lines 1910--1911
 \T1/lmr/m/n/10 sor-tons sys-té-ma-ti-que-ment un
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 1790--1791
+Underfull \hbox (badness 1348) in paragraph at lines 1910--1911
 \T1/lmr/m/n/10 leur adresse est plus simple.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1790--1791
+Underfull \hbox (badness 10000) in paragraph at lines 1910--1911
 \T1/lmr/m/n/10 Deux pos-si-bi-li-tés lo-giques
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1790--1791
+Underfull \hbox (badness 10000) in paragraph at lines 1910--1911
 \T1/lmr/m/n/10 seule-ment. Par consé-quent,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1790--1791
+Underfull \hbox (badness 10000) in paragraph at lines 1910--1911
 \T1/lmr/m/n/10 sor-tons les ca-va-liers, étant
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 1790--1791
+Underfull \hbox (badness 2626) in paragraph at lines 1910--1911
 \T1/lmr/m/n/10 être connue et que peu de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1790--1791
+Underfull \hbox (badness 10000) in paragraph at lines 1910--1911
 \T1/lmr/m/n/10 sus-pens sub-siste. Ainsi il
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 1790--1791
+Underfull \hbox (badness 2158) in paragraph at lines 1910--1911
 \T1/lmr/m/n/10 adresse et de gê-ner le plus
  []
 
 
-Overfull \hbox (12.12875pt too wide) in paragraph at lines 1798--1799
+Overfull \hbox (12.12875pt too wide) in paragraph at lines 1918--1919
  [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 7704) in paragraph at lines 1807--1808
+Underfull \hbox (badness 7704) in paragraph at lines 1927--1928
 [] \T1/lmr/bx/n/10 Ne dé-pla-cez pas la
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1811--1812
+Underfull \hbox (badness 10000) in paragraph at lines 1931--1932
 [] \T1/lmr/m/n/10 Chaque pièce at-ta-quée
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 1811--1812
+Underfull \hbox (badness 1552) in paragraph at lines 1931--1932
 \T1/lmr/m/n/10 d'une va-leur in-fé-rieure de-vra
  []
 
-[98]
-Overfull \hbox (12.12875pt too wide) in paragraph at lines 1817--1819
+[100]
+Overfull \hbox (12.12875pt too wide) in paragraph at lines 1937--1939
  [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 1822--1823
+Underfull \hbox (badness 2608) in paragraph at lines 1942--1943
 [] \T1/lmr/m/n/10 Dans cet exemple, nous
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 1822--1823
+Underfull \hbox (badness 1308) in paragraph at lines 1942--1943
 \T1/lmr/m/n/10 voyons les blancs dé-pla-cer 3
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 1822--1823
+Underfull \hbox (badness 2941) in paragraph at lines 1942--1943
 \T1/lmr/m/n/10 au-rait pu être évité, si les
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
+Underfull \hbox (badness 10000) in paragraph at lines 1949--1950
 [] \T1/lmr/bx/n/10 Faites le moins de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1829--1830
+Underfull \hbox (badness 10000) in paragraph at lines 1949--1950
 \T1/lmr/bx/n/10 mou-ve-ments de pion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
+Underfull \hbox (badness 10000) in paragraph at lines 1953--1954
 [] \T1/lmr/m/n/10 Lors de la phase
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 1833--1834
+Underfull \hbox (badness 4266) in paragraph at lines 1953--1954
 \T1/lmr/m/n/10 d'ou-ver-ture, vous jouez une
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
+Underfull \hbox (badness 10000) in paragraph at lines 1953--1954
 \T1/lmr/m/n/10 cen-trales), avant que votre
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 1833--1834
+Underfull \hbox (badness 1953) in paragraph at lines 1953--1954
 \T1/lmr/m/n/10 ad-ver-saire le fasse lui-même.
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 1833--1834
+Underfull \hbox (badness 2080) in paragraph at lines 1953--1954
 \T1/lmr/m/n/10 Au-tant que pos-sible, es-sayez
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 1835--1838
+Underfull \hbox (badness 1454) in paragraph at lines 1955--1958
 \T1/lmr/m/n/10 leurs pièces pen-dant que les
  []
 
 
-Underfull \hbox (badness 6575) in paragraph at lines 1840--1844
+Underfull \hbox (badness 6575) in paragraph at lines 1960--1964
 []\T1/lmr/bx/n/10 1 e4 e5 2 \LSI/skaknew/bx/n/10 N\T1/lmr/bx/n/10 c3 f5 3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1840--1844
+Underfull \hbox (badness 10000) in paragraph at lines 1960--1964
 \T1/lmr/bx/n/10 e\LSI/skaknew/bx/n/10 X\T1/lmr/bx/n/10 f5 d5 4 \LSI/skaknew/bx/n/10 Q\T1/lmr/bx/n/10 h5\LSI/skaknew/bx/n
 /10 + K\T1/lmr/bx/n/10 e7
  []
 
 
-Overfull \hbox (12.12875pt too wide) in paragraph at lines 1840--1844
+Overfull \hbox (12.12875pt too wide) in paragraph at lines 1960--1964
 [][][][][][][][][] 
  []
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 1848--1852
+Underfull \hbox (badness 2080) in paragraph at lines 1968--1972
 []\T1/lmr/bx/n/10 5 d4 e\LSI/skaknew/bx/n/10 X\T1/lmr/bx/n/10 d4 6 \LSI/skaknew/bx/n/10 B\T1/lmr/bx/n/10 g5\LSI/skaknew/
 bx/n/10 + N\T1/lmr/bx/n/10 f6
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 1848--1852
+Underfull \hbox (badness 7168) in paragraph at lines 1968--1972
 \T1/lmr/bx/n/10 7 \LSI/skaknew/bx/n/10 Q\T1/lmr/bx/n/10 e2\LSI/skaknew/bx/n/10 + K\T1/lmr/bx/n/10 d7 8 \LSI/skaknew/bx/n
 /10 Q\T1/lmr/bx/n/10 e6\LSI/skaknew/bx/n/10 m
  []
 
 
-Overfull \hbox (12.12875pt too wide) in paragraph at lines 1848--1852
+Overfull \hbox (12.12875pt too wide) in paragraph at lines 1968--1972
 [][][][][][][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
-Underfull \hbox (badness 1715) in paragraph at lines 1862--1863
+ [101]
+Underfull \hbox (badness 1715) in paragraph at lines 1982--1983
 \T1/lmr/m/n/10 est dans la plu-part des cas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1862--1863
+Underfull \hbox (badness 10000) in paragraph at lines 1982--1983
 
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 1864--1865
+Underfull \hbox (badness 2343) in paragraph at lines 1984--1985
 \T1/lmr/m/n/10 à des at-taques. Voir même,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1864--1865
+Underfull \hbox (badness 10000) in paragraph at lines 1984--1985
 \T1/lmr/m/n/10 sui-vant les pla-ce-ments des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1871--1872
+Underfull \hbox (badness 10000) in paragraph at lines 1991--1992
 [] \T1/lmr/bx/n/10 Ro-quez le plus tôt
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 1875--1876
+Underfull \hbox (badness 3646) in paragraph at lines 1995--1996
 \T1/lmr/m/n/10 toute sa puis-sance, pen-dant
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 1875--1876
+Underfull \hbox (badness 1609) in paragraph at lines 1995--1996
 \T1/lmr/m/n/10 pro-tégé coûte que coûte. Le
  []
 
 
-Overfull \hbox (12.12875pt too wide) in paragraph at lines 1880--1882
+Overfull \hbox (12.12875pt too wide) in paragraph at lines 2000--2002
  [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 1890--1891
+Underfull \hbox (badness 8132) in paragraph at lines 2010--2011
 [] \T1/lmr/bx/n/10 Jouez tou-jours pour
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1890--1891
+Underfull \hbox (badness 10000) in paragraph at lines 2010--2011
 \T1/lmr/bx/n/10 prendre le contrôle du
  []
 
 
-Underfull \hbox (badness 2486) in paragraph at lines 1894--1895
+Underfull \hbox (badness 2486) in paragraph at lines 2014--2015
 \T1/lmr/m/n/10 ne de-viez en re-te-nir qu'une
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 1894--1895
+Underfull \hbox (badness 1715) in paragraph at lines 2014--2015
 \T1/lmr/m/n/10 maî-tri-sez la par-tie, du coup
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1894--1895
+Underfull \hbox (badness 10000) in paragraph at lines 2014--2015
 
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 1896--1897
+Underfull \hbox (badness 3386) in paragraph at lines 2016--2017
 [] \T1/lmr/m/n/10 En dé-but de par-tie, le
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1906--1907
+Underfull \hbox (badness 10000) in paragraph at lines 2026--2027
 
  []
 
-[100]
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1909
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 2028--2029
 \T1/lmr/m/n/10 sur l'une des ailes risque
  []
 
 
-Underfull \hbox (badness 2237) in paragraph at lines 1908--1909
+Underfull \hbox (badness 2237) in paragraph at lines 2028--2029
 \T1/lmr/m/n/10 d'être for-te-ment com-pro-mise.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1908--1909
+Underfull \hbox (badness 10000) in paragraph at lines 2028--2029
 \T1/lmr/bx/n/10 D'au-tant plus si votre
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 1915--1916
+Underfull \hbox (badness 7238) in paragraph at lines 2035--2036
 [] \T1/lmr/bx/n/10 Ne sa-cri-fiez pas de
  []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 1925.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 2045.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 1928--1929
+Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
 []\T1/lmr/m/n/10 Construire une at-taque
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 1934--1935
+Underfull \hbox (badness 3668) in paragraph at lines 2054--2055
 [] \T1/lmr/bx/n/10 Si au-cune de ces 4
  []
 
-[101
+[103
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1953.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1953.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2073.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2073.
  ("omment ne pas apprendre Ã  jouer aux Ã©checs book.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1953.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1953.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2073.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2073.
 Package rerunfilecheck Info: File `"omment ne pas apprendre Ã  jouer aux Ã©checs book".out' has not changed.
 (rerunfilecheck)             Checksum: FC2F9B18BE7BC8E5B49F4F64F6347192;4995.
  )
@@ -4355,9 +4350,9 @@ Package rerunfilecheck Info: File `"omment ne pas apprendre Ã  jouer aux Ã©checs
 ### simple group (level 1) entered at line 1081 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 29771 strings out of 493323
- 533829 string characters out of 3139060
- 739618 words of memory out of 3000000
+ 29773 strings out of 493323
+ 533845 string characters out of 3139060
+ 752618 words of memory out of 3000000
  32554 multiletter control sequences out of 15000+200000
  108695 words of font info for 107 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4371,13 +4366,14 @@ New-FigurineBold.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourier/fou
 eX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfchan/uzcmi8a.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/wasy/wasy10.pfb>
-Output written on "omment ne pas apprendre Ã  jouer aux Ã©checs book.pdf" (115 pages, 630090 bytes).
+iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmro10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/urw/zapfchan/uzcmi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/wasy/wasy10.p
+fb>
+Output written on "omment ne pas apprendre Ã  jouer aux Ã©checs book.pdf" (117 pages, 652002 bytes).
 PDF statistics:
- 1025 PDF objects out of 1200 (max. 8388607)
- 193 named destinations out of 1000 (max. 500000)
+ 1037 PDF objects out of 1200 (max. 8388607)
+ 195 named destinations out of 1000 (max. 500000)
  661 words of extra memory for PDF output out of 10000 (max. 10000000)
 
