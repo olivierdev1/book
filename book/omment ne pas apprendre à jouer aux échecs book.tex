@@ -1,0 +1,1953 @@
+
+\documentclass[a5paper,openany,twocolumn]{book}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{calc, graphicx}
+\usepackage{subfiles}
+\usepackage{soul}
+\usepackage{setspace}
+\usepackage[normalem]{ulem}
+\usepackage{pifont}
+\usepackage{fancybox}
+\usepackage{fancyhdr}
+\usepackage{skak}
+\usepackage{lmodern}
+\usepackage{xskak}
+\usepackage{chessboard}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{boites}
+\usepackage[urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true]{hyperref}
+\usepackage{nicefrac}
+\usepackage{units}
+\usepackage{MnSymbol,wasysym}
+\usepackage{fourier-orns}
+\usepackage[urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true]{hyperref}
+\usepackage[Bjornstrup]{fncychap}
+\usepackage{lipsum}
+% glenn rejne sonny Bjornstrup conny
+
+%\usepackage[shortlabels]{enumerate}
+%\usepackage{enumitem}
+
+%----------------------------------------------------------
+
+\makeatletter
+\newenvironment{moncadre}{
+\renewcommand*{\bkvz@right}{}
+\renewcommand*{\bkvz@top}{}
+\renewcommand*{\bkvz@bottom}{}
+\breakbox}{\endbreakbox}
+
+\makeatother
+\makeatletter
+\renewcommand{\@chapapp}{}
+\makeatother
+
+\makeatletter\@addtoreset{section}{part}\makeatother
+\renewcommand{\thesection}{\arabic{section}}
+
+\makeatletter
+\def\@part[#1]#2{%
+    \addcontentsline{toc}{part}{#1}%
+    \markboth{}{}%
+    \thispagestyle{empty}%
+    {\centering
+     \interlinepenalty \@M
+     \normalfont
+     \Huge \bfseries #2\par}%
+    \@endpart}
+\makeatother
+
+%___________________________________________________________________________________________________________________________
+
+\hyphenpenalty=10000
+\setcounter{tocdepth}{4}
+\columnseprule=0.1pt
+
+%___________________________________________________________________________________________________________________________
+
+\begin{document}
+\pagenumbering{Roman} \setcounter{page}{1} 
+\frontmatter
+\title{Comment (ne pas) apprendre à jouer aux échecs}
+\author{Olivier Desormes}
+\date{\today}
+\maketitle \thispagestyle{empty}
+
+\onecolumn
+
+\newpage
+\strut
+\newpage
+
+\twocolumn
+
+\tableofcontents \thispagestyle{empty}
+
+\onecolumn
+
+\newpage \thispagestyle{empty}
+\strut
+\newpage \thispagestyle{empty}
+
+\twocolumn
+
+\pagenumbering{Roman}
+
+\onecolumn
+
+\chapter{Préface}\thispagestyle{empty}
+%___________________________________________________________________________________________________________________________
+
+Des livres sur le jeu d'échecs, il en existe des tas et des tas. Entre les livres sur les ouvertures in-telles et in-telles ou encore les méthodes pour telles ou telles techniques, il y en a pour toutes les sauces et pour tout le monde. Par contre, des livres pour apprendre et profiter du plaisir du jeu, je n'en n'ai toujours pas trouvé.
+
+Dans cet ouvrage, je vous propose d'apprendre le plaisir de ce jeu. Cet ouvrage ne vous proposera pas de jouer telle ou telle ouverture, ou méthode, mais vous enseignera les principes généraux qui vous permettront de jouer et évoluer avec grand plaisir. Cette progression se fera avec votre propre approche, manière et envie de jouer.
+
+Pour une meilleure compréhension du jeu, je vous invite à vous munir d'un échiquier, ainsi que de l'outil Arena muni de Stockfish, des outils gratuits, téléchargeables sur leurs sites respectifs \href{http://www.playwitharena.com/}{http://www.playwitharena.com/} pour Arena et \href{https://stockfishchess.org/}{https://stockfishchess.org/} pour Stockfish.
+
+\twocolumn
+
+\onecolumn
+
+\newpage \thispagestyle{empty}
+\strut
+\newpage \thispagestyle{empty}
+
+\twocolumn
+
+\onecolumn
+
+\chapter{Introduction}\thispagestyle{empty}
+%___________________________________________________________________________________________________________________________
+
+Le jeu d’échecs oppose deux joueurs de part et d’autre d’un tablier appelé échiquier composé de soixante-quatre cases claires et sombres nommées les cases blanches et les cases noires. Les joueurs jouent à tour de rôle en déplaçant l'une de leurs seize pièces et pions (ou deux pièces en cas de roque), claires pour le camp des blancs, sombres pour le camp des noirs. Chaque joueur possède au départ un roi, une dame, deux tours, deux fous, deux cavaliers et huit pions. Le but du jeu est d'infliger à son adversaire un échec et mat, une situation dans laquelle le roi d'un joueur est en prise sans qu'il soit possible d'y remédier.
+
+\medskip
+
+Le jeu a été introduit dans le Sud de l'Europe à partir du Xe siècle par les Arabes, mais on ignore où il fut inventé exactement. Il dérive du shatranj ou chatrang qui lui-même est la version perse du chaturanga de l'Inde classique. Les règles actuelles se fixent à partir de la fin du XVe siècle. Le jeu d’échecs est l'un des jeux de réflexion les plus populaires au monde. Il est pratiqué par des millions de gens sous de multiples formes : en famille, entre amis, dans des lieux publics, en club, en tournoi, par correspondance, sur Internet, aux niveaux amateur comme professionnel. Depuis son introduction en Europe, le jeu d'échecs jouit d'un prestige et d'une aura particulière qui l’a fait passer du « jeu des rois » au  « roi des jeux » ou encore « le noble jeu », en référence à sa dimension tactique et à sa notoriété internationale. Il a très largement inspiré la culture, en particulier la peinture, la littérature et le cinéma.
+
+\medskip
+
+La compétition aux échecs existe depuis les origines. On en trouve trace à la cour d'Haroun ar-Rachid au VIIIe siècle. Le premier tournoi de l'ère moderne a lieu à Londres en marge de l'Exposition universelle de 1851. La compétition est régie par la Fédération internationale des échecs (FIDE). Parallèlement, l'Association of Chess Professionals défend les intérêts des joueurs professionnels. Le premier champion du monde d'échecs est Wilhelm Steinitz en 1886 ; en 2017, le champion du monde est le Norvégien Magnus Carlsen.
+
+Une partie d'échecs commence dans la position initiale ci-dessous,
+
+\begin{center}
+
+\setchessboard{largeboard,showmover=false}
+\newchessgame
+\chessboard
+
+\end{center}
+
+Les blancs jouent le premier coup puis les joueurs jouent à tour de rôle en déplaçant à chaque fois une de leurs pièces (deux dans le cas d'un roque). Le but du jeu est donc d'infliger un échec et mat à son adversaire. Le terme échec et mat vient de šāh māta, « le roi est mort », pour indiquer la défaite du roi. Le mot šāh (« roi » en persan) est à l'origine du mot échec et du nom des échecs dans un grand nombre de langues.
+
+\medskip
+
+Dans cet ouvrage, je vais m’évertuer à (ne pas) vous apprendre à jouer aux échecs en vous montrant des « clés » qui vous permettront de prendre plaisir à ce jeu. Je vous présenterais les règles de jeu qui m’ont été enseignées ou que j’ai découvert lors de mes nombreuses parties jouées, analysées ou observées. 
+
+\thispagestyle{empty}
+
+\twocolumn
+
+\onecolumn
+
+\newpage \thispagestyle{empty}
+\strut
+\newpage \thispagestyle{empty}
+
+\twocolumn
+
+\pagenumbering{arabic}
+
+\mainmatter
+
+%___________________________________________________________________________________________________________________________
+\part{Les bases}\thispagestyle{empty}
+
+\onecolumn
+
+\newpage \thispagestyle{empty}
+\strut
+\newpage \thispagestyle{empty}
+
+\twocolumn
+
+\chapter{L'échiquier, les pièces}
+%___________________________________________________________________________________________________________________________
+
+\section{L'échiquier}
+%___________________________________________________________________________________________________________________________
+
+L'échiquier est formé de soixante-quatre cases, alternées de cases blanches et noires, huit rangées et colonnes et vingt-six diagonales.
+
+\begin{center}
+
+\def\mypieces{R,Q,B,N,K,P,r,n,b,q,k,p}
+\chessboard[hidepieces=\mypieces,smallboard,showmover=false]%setwhite=\whitepieces,addblack={Ke4,pb4}, 
+
+\end{center}
+ 
+Nous pouvons constater, sur le diagramme ci-dessus, que la case en bas à gauche est de couleur sombre. Les cases sont numérotés de "1" à "8" pour les rangées et de "a" à "h" pour les colonnes. La case en bas à gauche est donc la case a1 (on commence par citer la lettre et ensuite le chiffre).
+
+\medskip
+
+\begin{center}
+\newchessgame
+\setchessboard{smallboard,color=blue,clearboard}
+\chessboard[
+pgfstyle=
+{[base,at={\pgfpoint{0pt}{-0.4ex}}]text},text= \fontsize{1.2ex}{1.2ex}\bfseries\sffamily\currentwq,markboard,showmover=false]
+\end{center}
+
+L'échiquier suivant, nous montre que les quatre premières rangées sont le territoire des blancs et les quatre suivantes le territoire des noirs (par contre y a pas de douanes \smiley).
+
+\begin{center}
+
+\def\whitepieces{ke2, pb3,pa4}
+\def\mypieces{R,Q,B,N,K,P,r,n,b,q,k,p}
+\chessboard[setwhite=\whitepieces,addblack={Ke4,pb4}, hidepieces=\mypieces,
+pgfstyle=topborder,color=red,markregion=a4-h4,smallboard,showmover=false]
+
+\end{center}
+ 
+Sur l'échiquier suivant, en coupant l'échiquier en deux sur la hauteur, nous obtenons une partie gauche et une partie droite que l'on nomme aile. l'aile droite est nommée l'aile roi (car du coté du roi) et l'aile gauche est nommée l'aile dame (car du coté de la dame). 
+
+\begin{center}
+
+\def\whitepieces{ke2, pb3,pa4}
+\def\mypieces{R,Q,B,N,K,P,r,n,b,q,k,p}
+\chessboard[setwhite=\whitepieces,addblack={Ke4,pb4}, hidepieces=\mypieces,
+pgfstyle=rightborder,color=red,markregion=d1-d8,smallboard,showmover=false]
+
+\end{center}
+
+Si l'on assemble les deux frontières, cela donne le diagramme suivant.
+
+\begin{center}
+
+\def\whitepieces{ke2, pb3,pa4}
+\def\mypieces{R,Q,B,N,K,P,r,n,b,q,k,p}
+\chessboard[setwhite=\whitepieces,addblack={Ke4,pb4}, hidepieces=\mypieces,
+pgfstyle=topborder,color=red,markregion=a4-h4,pgfstyle=leftborder,color=red,markregion=e1-e8,smallboard,showmover=false]
+
+\end{center}
+ 
+Vous pouvez constater que nous avons 4 cases (e4, d4, e5, d5) et que le  découpage de l’échiquier passe par ces quatre cases. Les case e4, e5, d4, d5 sont appelés le centre de l'échiquier et sont les points de convergence des 4 parties de notre échiquier (les deux ailes (dame et roi) + les deux camps (blanc et noir)). Comme nous le verrons dans la 2\up{nd} partie de cet ouvrage, ces 4 cases centrales sont très importantes.
+
+\bigskip
+
+On peut aussi observer que nous avons deux grandes diagonales, a1-h8 et h1-a8 (et toujours pas de douanes, c’est pas beau la vie ? \smiley), celles-ci découpent l’échiquier en X (ou croix) qui forme 4 parties de 16 cases. Les deux grandes diagonales passent par les quatre cases du centre.
+
+\begin{center}
+
+\def\whitepieces{ke2, pb3,pa4}
+\def\mypieces{R,Q,B,N,K,P,r,n,b,q,k,p}
+\chessboard[setwhite=\whitepieces,addblack={Ke4,pb4}, hidepieces=\mypieces,
+pgfstyle=straightmove,
+shortenstart=0.1em,
+linewidth=3pt,color=red,markmoves={a1-h8},pgfstyle=straightmove,
+shortenstart=0.1em,
+linewidth=3pt,color=orange,markmoves={h1-a8},smallboard,showmover=false]%,pgfstyle=border,color=black,markfields={a1,b2,c3,d4,e5,f6,g7,h8,h1,g2,f3,e4,d5,c6,b7,a8}
+
+\end{center}
+
+\begin{center}
+
+\def\whitepieces{ke2, pb3,pa4}
+\def\mypieces{R,Q,B,N,K,P,r,n,b,q,k,p}
+\chessboard[setwhite=\whitepieces,addblack={Ke4,pb4}, hidepieces=\mypieces,
+color=brown,markstyle=color,markfields={a1,b2,c3,d4,b1,c1,d1,e1,f1,g1,c2,d2,e2,f2,d3,e3},color=orange,markstyle=color,markfields={a2,b3,c4,d5,a3,a4,a5,a6,a7,a8,b4,b5,b6,b7,c5,c6},color=red,markstyle=color,markfields={b8,c8,d8,e8,f8,g8,h8,g7,f7,e7,d7,c7,d6,e6,f6,e5},color=gray,markstyle=color,markfields={h1,h2,h3,h4,h5,h6,h7,g2,g3,g4,g5,g6,f3,f4,f5,e4},smallboard,showmover=false]
+
+\end{center}
+
+On peut voir que chacune des cases du centre est le sommet d'une des parties découpées par les diagonales (a1-d4, h1-e4, a8-d5 et h8-e5). 
+
+%___________________________________________________________________________________________________________________________
+\section{Les pièces}
+
+Au commencement de chaque partie, chaque joueur dispose de 16 pièces et pions (8 pions (\sympawn), 2 tours (\symrook), 2 cavaliers (\symknight), 2 fous (\symbishop), 1 dame (\symqueen) et 1 roi (\symking)) dont chacun se déplace de manière différente (Chaque pièce à sa propre valeur. Toutefois, dans cet ouvrage, nous parlerons de valeur relative car la valeur des pièces qui est pour le moment théorique et qui va nous servir dans un premier temps de base afin de mieux comprendre le jeu,est en réalité dépendante de la situation rencontrée). Chacune des pièces à sa propre manière de se déplacer et de manger les pièces adverses. Il y a 3 types de pièces, les pions, les pièces légères et les pièces lourdes. \\
+
+Nous allons maintenant voir chaque pièce et leur spécificité.
+
+%___________________________________________________________________________________________________________________________
+\subsection{Le pion} 
+
+Le pion est, au commencement de la partie, la pièce \footnote{Pour des raisons de compréhension, nous allons considérer que le pion est une pièce. Mais très vite nous allons constater que le pion n'est pas une pièce mais un pion.} la moins puissante et ayant le moins de valeur de votre arsenal. La moins puissante mais malgré cela très importante. Tellement importante qu’un grand de ce jeu a dit que les pions sont l’âme des échecs. Chaque dispose de 8 pions. Il se place sur la 2\up{nd} rangée (7\up{ème} pour les noirs) et il a la valeur relative de 1 point. On peut se servir des pions pour protéger les pièces, soutenir les pièces, attaquer des pions ou des pièces adverses, bloquer l'adversaire ou s'en servir comme sacrifice. De par sa faible valeur théorique on peut se servir des pions comme première ligne mais attention à ne pas trop les épuiser car sans eux les pièces ont du mal à se protéger.
+
+\medskip
+
+\begin{center}
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+\end{center}
+
+\medskip
+
+Le pion ne se déplace qu'en avant d'une case à la fois, sauf, lorsqu'il est sur sa case de départ, ou il peut se déplacer de une ou deux cases (une fois le premier déplacement effectué il reprend son déplacement normal quelque soit le choix). S'il fait face à un autre pion, qu'il soit adverse ou non, il ne peut plus évoluer. Dans la position ci-dessous, nous pouvons constater que les pion e4 et e5 se font face. Ils ne peuvent plus évoluer normalement car contrairement aux autres pièces, le pion ne mange pas dans son déplacement naturel.
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 e5}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+\end{center}
+
+\medskip
+
+Le pion peut, comme toute pièce du jeu, manger d'autres pièces ou pions. Pour manger, le pion effectue un déplacement de biais d'une case et prend la place de la pièce (ou pion) mangée \footnote{Toute pièce ou pion prend la place de la pièce mangée.}. Manger n'est pas obligatoire aux échecs, il vous appartiendra de juger par vous même si vous souhaitez manger ou pas la pièce ou le pion. \\
+
+\begin{moncadre}
+
+\noindent \danger \; Le pion ne reviens pas en arrière, chaque avancée est définitive.
+
+\end{moncadre}
+
+\medskip
+
+Pour évoluer, le pion blanc devra attendre que soit d5 ou f5 soient joué par les noirs, 
+
+\medskip
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 e5 2.d3 d5}
+\mainline{}
+\chessboard[pgfstyle=straightmove,color=orange,markmoves={e4-d5},hidepieces=\mypieces,showmover=false,storefen=myfen]
+
+Le pion blanc peux ici manger le pion d5.
+
+\end{center}
+
+\begin{center}
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 e5 2.d3 f5}
+\mainline{}
+\chessboard[pgfstyle=straightmove,color=orange,markmoves={e4-f5},hidepieces=\mypieces,showmover=false,storefen=myfen]
+
+Le pion blanc peux ici manger le pion f5.
+
+\end{center}
+
+et pour le pion noir, soit le pion d4 ou f4 soit joué par le pion blanc.
+
+\medskip
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 e5 2.d4}
+\mainline{}
+\chessboard[pgfstyle=straightmove,color=orange,markmoves={e5-d4},hidepieces=\mypieces,showmover=false,storefen=myfen]
+
+Le pion noir peux ici manger le pion d4.
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 e5 2.f4}
+\mainline{}
+\chessboard[pgfstyle=straightmove,color=orange,markmoves={e5-f4},hidepieces=\mypieces,showmover=false,storefen=myfen]
+
+Le pion noir peux ici manger le pion f4.
+
+\end{center}
+
+\medskip
+
+\paragraph{Cas particuliers}
+
+Le pion peut effectuer deux actions, la prise en passant et la promotion.
+
+\paragraph*{La prise en passant} consiste, si l'adversaire n'a pas encore bougé son pion, et, si votre pion se situe deux rangées devant (4\up{ème} pour les noirs et 5\up{ème} pour les blancs) et une des deux colonnes adjacentes à la colonne du pion adverse, , à pouvoir prendre le pion adverse si celui-ci est avancé de deux cases malgré le fait que le pion n'est pas sur une case de prise de votre pion. Lorsque le pion avance de deux cases, on considère qu'il avance d'une case puis de l'autre en une seule fois mais comme si c'était deux mouvements en un, du coup lorsque le joueur avance de deux cases et que le pion adverse rempli les conditions demandées, on fait "comme si" le pion n'avait avancé que d'une case et on le prend "en passant".
+
+Dans les diagrammes ci-dessous : les deux premiers nous montrent le pion blanc qui va pouvoir prendre en passant, les deux suivants nous montrent le pion noir qui va pouvoir prendre en passant.
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 c5 2.e5 f5}
+\mainline{}
+\chessboard[pgfstyle=straightmove,color=orange,markmoves={e5-f6},pgfstyle=straightmove,color=gray,markmoves={f7-f5},hidepieces=\mypieces,showmover=false,storefen=myfen]
+
+Le pion blanc peux ici manger le pion f5.
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 c5 2.e5 f6 3.exf6}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 c5 2.g3 c4 3.d4}
+\mainline{}
+\chessboard[pgfstyle=straightmove,color=orange,markmoves={c4-d3},pgfstyle=straightmove,color=gray,markmoves={d2-d4},hidepieces=\mypieces,showmover=false,storefen=myfen]
+
+Le pion noir peux ici manger le pion d4.
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{R,Q,B,N,K,r,n,b,q,k}
+\setchessboard{smallboard}
+\hidemoves{1.e4 c5 2.g3 c4 3.d3 cxd3}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+
+\end{center}
+
+\paragraph*{La promotion} consiste, si le pion ne rencontre aucune entrave, à arriver sur l'autre bord de l'échiquier (8\up{ème} rangée pour les blancs, 1\up{ère} rangée pour les noirs) et se transformer en n'importe quelle pièce de sa couleur, sauf le roi. \\
+
+(Elle est pas belle la vie ? \smiley{}). 
+
+%___________________________________________________________________________________________________________________________
+\subsection{La tour}
+
+La tour est une pièce dite lourde. Chaque joueur en dispose de deux, placées aux quatre coins de l'échiquier (deux pour les blancs (a1 et h1), deux pour les noirs (a8 et h8)). Sa valeur relative est de 5 points.
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,Q,B,N,K,p,n,b,q,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+\end{center}
+
+Le déplacement de la tour est soit en horizontale, soit en verticale. Elle peut aller en avant comme en arrière et de gauche à droite. Elle ne peut jouer qu'une direction à la fois (elle ne peux pas, sur le même coup, aller en avant et à gauche (par exemple), elle ne pourra aller que dans une direction et au coup suivant changer sa direction pour aller à l'endroit désiré).
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,Q,B,N,K,p,n,b,q,k,r}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen,pgfstyle=straightmove,color=orange,markmoves={a1-h1},pgfstyle=straightmove,color=gray,markmoves={h1-h8},hidepieces=\mypieces,showmover=false,storefen=myfen]
+\end{center}
+
+La seule limite du déplacement de la tour est, les obstacles. La tour ne peux pas passer au-dessus les autres pièces, quelles soient adverses ou non. La tour mange de la manière dont elle se déplace en prenant la place de la pièce mangée. 
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{P,Q,B,N,K,n,b,q,k,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 d5 2. exd5 c6 3. dxc6 Qxd2+ 4. Qxd2 Bh3 5. gxh3 e5 6. cxb7 Nc6 7. bxa8=Q+ Ke7 8. Qxa7+ Nxa7 9. Qb4+ Ke8 10. Qxf8+ Kd7 11. f4 exf4 12. Be3 fxe3 13. Nd2 exd2+ 14. Kf2 d1=Q 15. Bd3 Qxa1 16. Bf1 Qxf1+ 17. Kg3 Qxg1+ 18. Kf4 Qg4+ 19. Ke3 Qxh3+ 20. Kf4 g5+ 21. Kxg5 f6+ 22. Qxf6 Nh6 23. Qxh6 Rf8 24. Qxf8 Nc8 25. Qxc8+ Ke7 26. Qc3 Qxc3 27. Kg4 Qxc2 28. Kg3 Qxb2 29. Kf3 Qxa2 30. Ke3 Qxh2 31. Kd3 Qe2+ 32. Kxe2 Kd8 33. Ke1 Ke8}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=orange,markmoves={h1-h7},storefen=myfen]
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{P,Q,B,N,K,n,b,q,k,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 d5 2. exd5 c6 3. dxc6 Qxd2+ 4. Qxd2 Bh3 5. gxh3 e5 6. cxb7 Nc6 7. bxa8=Q+ Ke7 8. Qxa7+ Nxa7 9. Qb4+ Ke8 10. Qxf8+ Kd7 11. f4 exf4 12. Be3 fxe3 13. Nd2 exd2+ 14. Kf2 d1=Q 15. Bd3 Qxa1 16. Bf1 Qxf1+ 17. Kg3 Qxg1+ 18. Kf4 Qg4+ 19. Ke3 Qxh3+ 20. Kf4 g5+ 21. Kxg5 f6+ 22. Qxf6 Nh6 23. Qxh6 Rf8 24. Qxf8 Nc8 25. Qxc8+ Ke7 26. Qc3 Qxc3 27. Kg4 Qxc2 28. Kg3 Qxb2 29. Kf3 Qxa2 30. Ke3 Qxh2 31. Kd3 Qe2+ 32. Kxe2 Kd8 33. Ke1 Ke8 34.Rxh7}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=gray,markmoves={h1-h7},storefen=myfen]
+
+\end{center}
+
+%___________________________________________________________________________________________________________________________
+\subsection{Le fou}
+
+Le fou est une pièce dite légère. Chaque joueur en dispose de 2, placées aux colonnes c et f (deux pour les blancs (c1 et f1), deux pour les noirs (c8 et f8)), un occupant les couleurs noirs et un occupant les couleurs blanches. Sa valeur relative est de 3 points.
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,Q,R,N,K,p,n,r,q,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+\end{center}
+
+Le déplacement du fou est en diagonale. Il peut aller en avant comme en arrière. Il ne peut jouer qu'une direction à la fois (il ne peux pas, sur le même coup, aller en avant et en arrière (par exemple), il ne pourra aller que dans une direction et au coup suivant changer sa direction pour aller à l'endroit désiré).
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,Q,R,N,K,p,n,r,q,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,pgfstyle=straightmove,color=orange,markmoves={c1-h6},pgfstyle=straightmove,color=orange,markmoves={c1-a3},pgfstyle=straightmove,color=orange,markmoves={f1-a6},pgfstyle=straightmove,color=orange,markmoves={f1-h3},pgfstyle=straightmove,color=gray,markmoves={c8-h3},pgfstyle=straightmove,color=gray,markmoves={c8-a6},pgfstyle=straightmove,color=gray,markmoves={f8-a3},pgfstyle=straightmove,color=gray,markmoves={f8-h6},showmover=false,storefen=myfen]
+\end{center}
+
+Le fou ne peut pas changer de couleur.
+
+La seule limite du déplacement du fou est, les obstacles. Le fou ne peux pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le fou mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{Q,N,K,n,b,q,k,r}
+\setchessboard{smallboard}
+\hidemoves{1. d4 d5 2. c4 dxc4 3. b3 cxb3 4. Nc3 bxa2 5. Rxa2 a6 6. Rxa6 Nxa6 7. Nb5 c6 8. Qd3 cxb5 9. Qxb5+ Bd7 10. d5 Bxb5 11. e4 e6 12. dxe6 fxe6 13. Nf3 Ba3 14. Bxa3 Be2 15. Bxe2 Qd2+ 16. Kf1 Qxe2+ 17. Kg1 Qxf3 18. Kf1 Qxe4 19. f4 Qxf4+ 20. Ke1 Nb4 21. Bxb4 Ra3 22. Bxa3 Ne7 23. Bxe7 Rf8 24. Bxf8 h6 25. Bxg7 e5 26. Bxh6 Qg5 27. Bxg5 e4 28. g4 Kf7 29. Bc1 Kg6 30. g5 b5 31. Bb2 Kxg5 32. h3 b4 33. Rg1+ Kh4 34. Rg3 Kxg3 35. h4 Kxh4 36. Bc1 Kh5 37. Be3 Kg6 38. Bc1 Kf7 39. Bd2 Ke8 40. Bc1 e3 41. Bxe3 Kd7 42. Bc1 Kd8 43. Bd2 Ke8}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=orange,markmoves={d2-b4},storefen=myfen]
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{Q,N,K,n,b,q,k,r}
+\setchessboard{smallboard}
+\hidemoves{1. d4 d5 2. c4 dxc4 3. b3 cxb3 4. Nc3 bxa2 5. Rxa2 a6 6. Rxa6 Nxa6 7. Nb5 c6 8. Qd3 cxb5 9. Qxb5+ Bd7 10. d5 Bxb5 11. e4 e6 12. dxe6 fxe6 13. Nf3 Ba3 14. Bxa3 Be2 15. Bxe2 Qd2+ 16. Kf1 Qxe2+ 17. Kg1 Qxf3 18. Kf1 Qxe4 19. f4 Qxf4+ 20. Ke1 Nb4 21. Bxb4 Ra3 22. Bxa3 Ne7 23. Bxe7 Rf8 24. Bxf8 h6 25. Bxg7 e5 26. Bxh6 Qg5 27. Bxg5 e4 28. g4 Kf7 29. Bc1 Kg6 30. g5 b5 31. Bb2 Kxg5 32. h3 b4 33. Rg1+ Kh4 34. Rg3 Kxg3 35. h4 Kxh4 36. Bc1 Kh5 37. Be3 Kg6 38. Bc1 Kf7 39. Bd2 Ke8 40. Bc1 e3
+41. Bxe3 Kd7 42. Bc1 Kd8 43. Bd2 Ke8 44.Bxb4}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=gray,markmoves={d2-b4},storefen=myfen]
+
+\end{center}
+
+%___________________________________________________________________________________________________________________________
+\subsection{La dame}
+
+La dame est une pièce dite lourde. Chaque joueur en dispose d'une dame, placée sur la colonne d (d1 pour les blancs et d8 pour les noirs). Sa valeur relative est de 9 points. C'est la pièce la plus puissante.
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,B,R,N,K,p,n,r,b,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+\end{center}
+
+Le déplacement de la dame est une combinaison du fou et de la tour. Elle peut aller en avant comme en arrière. elle ne peut jouer qu'une direction à la fois (elle ne peux pas, sur le même coup, aller en avant et en arrière (par exemple), elle ne pourra aller que dans une direction et au coup suivant changer sa direction pour aller à l'endroit désiré).
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,B,R,N,K,p,n,r,b,q,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,pgfstyle=straightmove,color=orange,markmoves={d1-a4},pgfstyle=straightmove,color=orange,markmoves={d1-d8},pgfstyle=straightmove,color=orange,markmoves={d1-h5},showmover=false,storefen=myfen]
+\end{center}
+
+La seule limite du déplacement de la dame est, les obstacles. La dame ne peux pas passer au-dessus les autres pièces, quelles soient adverses ou non. La dame mange de la manière dont elle se déplace en prenant la place de la pièce mangée. 
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,K,n,b,q,k,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 d5 2. exd5 c6 3. dxc6 bxc6 4. d4 Qxd4
+5. Qxd4 Nf6 6. f4 g6 7. g4 Nxg4 8. Bh3 f5
+9. Bxg4 c5 10. Bxf5 Be6 11. Bxe6 Nd7 12. Bxd7+ Kf7
+13. Be6+ Kxe6 14. c4 Bg7 15. Qf2 Bxb2 16. Qg2 Bxa1
+17. Qf2 Bb2 18. Qg2 Bxc1 19. Qf2 Bxf4 20. Nh3 Bxh2
+21. Nf4+ Bxf4 22. Rh2 Bxh2 23. Nc3 a5 24. Qxc5 Kf7
+25. Qxe7+ Kg8 26. Qe6+ Kf8 27. Qd6+ Kg8 28. Qd5+ Kf8
+29. Qxa8+ Kf7 30. Qxh8 Ke6 31. Qf6+ Kd7 32. Qxg6 Ke7
+33. Qa6 Ke8 34. Qxa5 Bd6 35. c5 Bxc5 36. Nb5 Kf8
+37. Nd6 Bxd6 38. a3 Bxa3 39. Qh5 Be7 40. Qh4 Kg8
+41. Qxe7 Kh8 42. Qh4 Kg8 43. Qh3 Kf8 44. Qd3 Ke8}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=orange,markmoves={d3-h7},storefen=myfen]
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,K,n,b,q,k,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 d5 2. exd5 c6 3. dxc6 bxc6 4. d4 Qxd4
+5. Qxd4 Nf6 6. f4 g6 7. g4 Nxg4 8. Bh3 f5
+9. Bxg4 c5 10. Bxf5 Be6 11. Bxe6 Nd7 12. Bxd7+ Kf7
+13. Be6+ Kxe6 14. c4 Bg7 15. Qf2 Bxb2 16. Qg2 Bxa1
+17. Qf2 Bb2 18. Qg2 Bxc1 19. Qf2 Bxf4 20. Nh3 Bxh2
+21. Nf4+ Bxf4 22. Rh2 Bxh2 23. Nc3 a5 24. Qxc5 Kf7
+25. Qxe7+ Kg8 26. Qe6+ Kf8 27. Qd6+ Kg8 28. Qd5+ Kf8
+29. Qxa8+ Kf7 30. Qxh8 Ke6 31. Qf6+ Kd7 32. Qxg6 Ke7
+33. Qa6 Ke8 34. Qxa5 Bd6 35. c5 Bxc5 36. Nb5 Kf8
+37. Nd6 Bxd6 38. a3 Bxa3 39. Qh5 Be7 40. Qh4 Kg8
+41. Qxe7 Kh8 42. Qh4 Kg8 43. Qh3 Kf8 44. Qd3 Ke8 45.Qxh7}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=gray,markmoves={d3-h7},storefen=myfen]
+
+\end{center}
+
+%___________________________________________________________________________________________________________________________
+\subsection{Le roi}
+
+Le roi est la pièce la plus importante car sans le roi la partie est finie et le joueur qui est échec et mat l'a perdue. Chaque joueur dispose d'un roi, placée sur la colonne e (e1 pour les blancs et e8 pour les noirs). Sa valeur est infinie car sans lui la partie est perdue. C'est la pièce la plus importante et la seule qui ne peut être sacrifiée ou échangée.
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,B,R,N,Q,p,n,r,b,q}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+\end{center}
+
+Le déplacement du roi est d'une case dans tous les sens. Il peut aller en avant comme en arrière. Il ne peut jouer qu'une direction à la fois (il ne peux pas, sur le même coup, aller en avant et en arrière (par exemple), il ne pourra aller que dans une direction et au coup suivant changer sa direction pour aller à l'endroit désiré).
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,B,R,N,Q,p,n,r,b,q,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,pgfstyle=straightmove,color=orange,markmoves={e1-e2},pgfstyle=straightmove,color=orange,markmoves={e1-d2},pgfstyle=straightmove,color=orange,markmoves={e1-f2},pgfstyle=straightmove,color=orange,markmoves={e1-f1},pgfstyle=straightmove,color=orange,markmoves={e1-d1},showmover=false,storefen=myfen]
+\end{center}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,Q,n,b,q,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 d5 2. exd5 c6 3. dxc6 bxc6 4. d4 Qxd4
+5. Qxd4 Nf6 6. f4 g6 7. g4 Nxg4 8. Bh3 f5
+9. Bxg4 c5 10. Bxf5 Be6 11. Bxe6 Nd7 12. Bxd7+ Kf7
+13. Be6+ Kxe6 14. c4 Bg7 15. Qf2 Bxb2 16. Qg2 Bxa1
+17. Qf2 Bb2 18. Qg2 Bxc1 19. Qf2 Bxf4 20. Nh3 Bxh2
+21. Nf4+ Bxf4 22. Rh2 Bxh2 23. Nc3 a5 24. Qxc5 Kf7
+25. Qxe7+ Kg8 26. Qe6+ Kf8 27. Qd6+ Kg8 28. Qd5+ Kf8
+29. Qxa8+ Kf7 30. Qxh8 Ke6 31. Qf6+ Kd7 32. Qxg6 Ke7
+33. Qa6 Ke8 34. Qxa5 Bd6 35. c5 Bxc5 36. Nb5 Kf8
+37. Nd6 Bxd6 38. a3 Bxa3 39. Qh5 Be7 40. Qh4 Kg8
+41. Qxe7 Kh8 42. Qh4 Kg8 43. Qh3 Kf8 44. Qd3 Ke8 45.Qd8 KxQd8 46.Kf2 Kc7 47.Kg3 Kb7 48.Kh4 Kc7 49.Kh5 Kd7 50.Kh6 Kd7}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=orange,markmoves={h6-h7},storefen=myfen]
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,Q,n,b,q,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 d5 2. exd5 c6 3. dxc6 bxc6 4. d4 Qxd4
+5. Qxd4 Nf6 6. f4 g6 7. g4 Nxg4 8. Bh3 f5
+9. Bxg4 c5 10. Bxf5 Be6 11. Bxe6 Nd7 12. Bxd7+ Kf7
+13. Be6+ Kxe6 14. c4 Bg7 15. Qf2 Bxb2 16. Qg2 Bxa1
+17. Qf2 Bb2 18. Qg2 Bxc1 19. Qf2 Bxf4 20. Nh3 Bxh2
+21. Nf4+ Bxf4 22. Rh2 Bxh2 23. Nc3 a5 24. Qxc5 Kf7
+25. Qxe7+ Kg8 26. Qe6+ Kf8 27. Qd6+ Kg8 28. Qd5+ Kf8
+29. Qxa8+ Kf7 30. Qxh8 Ke6 31. Qf6+ Kd7 32. Qxg6 Ke7
+33. Qa6 Ke8 34. Qxa5 Bd6 35. c5 Bxc5 36. Nb5 Kf8
+37. Nd6 Bxd6 38. a3 Bxa3 39. Qh5 Be7 40. Qh4 Kg8
+41. Qxe7 Kh8 42. Qh4 Kg8 43. Qh3 Kf8 44. Qd3 Ke8 45.Qd8 KxQd8 46.Kf2 Kc7 47.Kg3 Kb7 48.Kh4 Kc7 49.Kh5 Kd7 50.Kh6 Kd7 51.Kxh7}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=gray,markmoves={h6-h7},storefen=myfen]
+
+\end{center}
+
+\paragraph{Cas particuliers}
+
+\paragraph*{Le roque} consiste à déplacer le roi et une de ses tours. Il permet, en un seul coup, de mettre le roi à l'abri tout en plaçant une tour devant (on parle de centraliser la tour), ce qui permet par la même occasion de la mobiliser rapidement. Il s'agit du seul cas possible permettant de déplacer deux pièces en même temps.
+
+\medskip
+
+Il existe le petit roque
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,Q,n,b,q,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 e5 2. Nf3 Nc6 3. Nxe5 Nxe5 4. d4 d5
+5. dxe5 dxe4 6. Qxd8+ Kxd8 7. Nc3 Bc5 8. Nxe4 Bf5
+9. Nxc5 Ke8 10. Nxb7 Nf6 11. g4 g6 12. gxf5 Kd7
+13. exf6 Ke8 14. fxg6 fxg6 15. f7+ Kxf7 16. f4 Ke8
+17. f5 gxf5 18. Nd6+ Ke7 19. Nxf5+ Kf8 20. Ne7 h6
+21. Ng6+ Kg7 22. Nxh8 Kf8 23. Ng6+ Kg7 24. c3 Rb8
+25. b4 Rxb4 26. a4 Rxa4 27. c4 Rxc4 28. Ne5 Rc5
+29. Nd7 Rd5 30. Rxa7 Rxd7 31. Rxc7 h5 32. Ra7 Rf7
+33. Ra1 Rc7 34. Bh6+ Kxh6 35. Bc4 Rxc4 36. h4 Rxh4
+37. Ra4 Kg6 38. Raxh4 Kg5 39. Rxh5+ Kg6 40. Ra5 Kf7
+41. Ra1 Ke8}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=orange,markmoves={e1-g1},storefen=myfen]
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,Q,n,b,q,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 e5 2. Nf3 Nc6 3. Nxe5 Nxe5 4. d4 d5
+5. dxe5 dxe4 6. Qxd8+ Kxd8 7. Nc3 Bc5 8. Nxe4 Bf5
+9. Nxc5 Ke8 10. Nxb7 Nf6 11. g4 g6 12. gxf5 Kd7
+13. exf6 Ke8 14. fxg6 fxg6 15. f7+ Kxf7 16. f4 Ke8
+17. f5 gxf5 18. Nd6+ Ke7 19. Nxf5+ Kf8 20. Ne7 h6
+21. Ng6+ Kg7 22. Nxh8 Kf8 23. Ng6+ Kg7 24. c3 Rb8
+25. b4 Rxb4 26. a4 Rxa4 27. c4 Rxc4 28. Ne5 Rc5
+29. Nd7 Rd5 30. Rxa7 Rxd7 31. Rxc7 h5 32. Ra7 Rf7
+33. Ra1 Rc7 34. Bh6+ Kxh6 35. Bc4 Rxc4 36. h4 Rxh4
+37. Ra4 Kg6 38. Raxh4 Kg5 39. Rxh5+ Kg6 40. Ra5 Kf7
+41. Ra1 Ke8 42. O-O}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=gray,markmoves={e1-g1},storefen=myfen]
+
+\end{center}
+
+et le grand roque
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,Q,n,b,q,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 e5 2. Nf3 Nc6 3. Nxe5 Nxe5 4. d4 d5
+5. dxe5 dxe4 6. Qxd8+ Kxd8 7. Nc3 Bc5 8. Nxe4 Bf5
+9. Nxc5 Ke8 10. Nxb7 Nf6 11. g4 g6 12. gxf5 Kd7
+13. exf6 Ke8 14. fxg6 fxg6 15. f7+ Kxf7 16. f4 Ke8
+17. f5 gxf5 18. Nd6+ Ke7 19. Nxf5+ Kf8 20. Ne7 h6
+21. Ng6+ Kg7 22. Nxh8 Kf8 23. Ng6+ Kg7 24. c3 Rb8
+25. b4 Rxb4 26. a4 Rxa4 27. c4 Rxc4 28. Ne5 Rc5
+29. Nd7 Rd5 30. Rxa7 Rxd7 31. Rxc7 h5 32. Ra7 Rf7
+33. Ra1 Rc7 34. Bh6+ Kxh6 35. Bc4 Rxc4 36. h4 Rxh4
+37. Rxh4 Kg7 38. Rxh5 Kf7 39. Rh1 Ke8}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=orange,markmoves={e1-c1},storefen=myfen]
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,Q,n,b,q,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 e5 2. Nf3 Nc6 3. Nxe5 Nxe5 4. d4 d5
+5. dxe5 dxe4 6. Qxd8+ Kxd8 7. Nc3 Bc5 8. Nxe4 Bf5
+9. Nxc5 Ke8 10. Nxb7 Nf6 11. g4 g6 12. gxf5 Kd7
+13. exf6 Ke8 14. fxg6 fxg6 15. f7+ Kxf7 16. f4 Ke8
+17. f5 gxf5 18. Nd6+ Ke7 19. Nxf5+ Kf8 20. Ne7 h6
+21. Ng6+ Kg7 22. Nxh8 Kf8 23. Ng6+ Kg7 24. c3 Rb8
+25. b4 Rxb4 26. a4 Rxa4 27. c4 Rxc4 28. Ne5 Rc5
+29. Nd7 Rd5 30. Rxa7 Rxd7 31. Rxc7 h5 32. Ra7 Rf7
+33. Ra1 Rc7 34. Bh6+ Kxh6 35. Bc4 Rxc4 36. h4 Rxh4
+37. Rxh4 Kg7 38. Rxh5 Kf7 39. Rh1 Ke8 40.O-O-O}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=gray,markmoves={e1-c1},storefen=myfen]
+
+\end{center}
+
+Cependant, il y a des conditions à cette possibilité. le roi et la tour ne doivent pas avoir bougés, le roi ne doit pas être en échecs, les cases entre les deux doivent être libres et le roi ne doit pas être mis en échecs sur une des cases de passage.
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,Q,n,q,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 d5
+5. exd5 Bg4 6. Qd3 Bd1 7. Qxd1 Nxd4 8. Qxd4 Qxd5
+9. Qxd5 Nf6 10. Bc4 Nxd5 11. Nc3 Nxc3 12. Bxf7+ Kxf7
+13. Bd2 c5 14. Bxc3 b5 15. Bd2 b4 16. Bxb4 g6
+17. Bxc5 Rb8 18. Bxa7 Be7 19. Bxb8 Bd6 20. Bc7 Rd8
+21. Bxd8 Ke8 22. f4 Bxf4 23. Be7 Kxe7 24. c4 Bd6
+25. c5 Bxc5 26. b3 Be3 27. g3 Ke8}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=brown,markmoves={e3-g1},showmover=false,pgfstyle=straightmove,color=brown,markmoves={e3-c1},storefen=myfen]
+
+\end{center}
+
+Dans cet exemple, les blancs ne peuvent ni roquer à l'aile roi, ni roquer à l'aile dame. Dans le premier cas, le fou attaque les case g1 et c1 qui sont les cases d'arrivées du roi or celui-ci ne peut être et rester en échec.
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{B,N,Q,n,q,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4
+5. Qxd4 d5 6. Qxd5 Bg4 7. f4 Qxd5 8. exd5 Ba3
+9. Nxa3 c6 10. dxc6 f6 11. cxb7 Bc8 12. Be3 Bxb7
+13. Ba6 Bxa6 14. Bb6 axb6 15. Nc4 Ne7 16. Nxb6 Nd5
+17. Nxd5 g6 18. Nxf6+ Ke7 19. Nxh7 g5 20. Nxg5 Ke8
+21. f5 Ke7 22. f6+ Kxf6 23. Ne4+ Ke7 24. Ng5 Ke8}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=straightmove,color=brown,markmoves={a6-f1},storefen=myfen]
+
+\end{center}
+
+Dans cet exemple, le petit roque n'est pas réalisable car le fou attaque la case f1 or lorsque nous déplaçons le roi de deux cases, tout comme pour le pion, nous déplaçons deux fois le roi d'une case, et donc le fou le mettrait échecs pendant son passage sur la case. 
+
+%___________________________________________________________________________________________________________________________
+\subsection{Le cavalier}
+
+Le cavalier (et non pas cheval ou chevalier) est une pièce dite légère. Chaque joueur en dispose de 2, placées aux colonnes b et g (deux pour les blancs (b1 et g1), deux pour les noirs (b8 et g8)). Sa valeur relative est de 3 points.
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,Q,R,B,K,p,b,r,q,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,showmover=false,storefen=myfen]
+\end{center}
+
+Le déplacement du cavalier est en diagonale. Il peut aller en avant comme en arrière. Son déplacement, contrairement aux autres pièces, n'est pas horizontal, vertical ou en diagonale, mais en forme de "L" composé de deux case droite et une case de côté.
+
+\begin{center}
+\newchessgame
+\def\mypieces{P,Q,R,B,K,p,b,r,q,k}
+\setchessboard{smallboard}
+\chessboard[hidepieces=\mypieces,pgfstyle=knightmove,color=orange,markmoves={b1-c3},pgfstyle=knightmove,color=orange,markmoves={b1-a3},pgfstyle=knightmove,color=orange,markmoves={b1-d2},pgfstyle=knightmove,color=orange,markmoves={g1-f3},pgfstyle=knightmove,color=orange,markmoves={g1-h3},pgfstyle=knightmove,color=orange,markmoves={g1-e2},
+pgfstyle=knightmove,color=orange,markmoves={b8-c6},pgfstyle=knightmove,color=orange,markmoves={b8-a6},pgfstyle=knightmove,color=orange,markmoves={b8-d7},pgfstyle=knightmove,color=orange,markmoves={g8-f6},pgfstyle=knightmove,color=orange,markmoves={g8-h6},pgfstyle=knightmove,color=orange,markmoves={g8-e7},showmover=false,storefen=myfen]
+
+\end{center}
+
+Le cavalier peux passer au-dessus les autres pièces quelles soient adverses ou non mais ne peut pas atterrir sur une case déjà occupée par une pièces de son camp. Le cavalier mange de la manière dont il se déplace et uniquement sur sa case d'arrivée en prenant la place de la pièce mangée. 
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{Q,B,K,R,b,q,k,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4
+5. Qxd4 Nf6 6. Nc3 Nd5 7. Qxd5 Bc5 8. Bg5 f6
+9. Bh4 d6 10. Qd1 d5}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=knightmove,color=orange,markmoves={c3-d5},storefen=myfen]
+
+\end{center}
+
+\begin{center}
+
+\newchessgame
+\def\mypieces{Q,B,K,R,b,q,k,r}
+\setchessboard{smallboard}
+\hidemoves{1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nxd4
+5. Qxd4 Nf6 6. Nc3 Nd5 7. Qxd5 Bc5 8. Bg5 f6
+9. Bh4 d6 10. Qd1 d5 11.Nxd5}
+\mainline{}
+\chessboard[hidepieces=\mypieces,showmover=false,pgfstyle=knightmove,color=gray,markmoves={c3-d5},storefen=myfen]
+
+\end{center}
+
+Maintenant que nous avons vu les pièces et pions, voyons l'échiquier au complet.
+
+\begin{center}
+
+\setchessboard{smallboard,showmover=false}
+\newchessgame
+\chessboard
+
+\end{center}
+
+%___________________________________________________________________________________________________________________________
+\subsection*{Exercices}
+
+Maintenant que nous avons vu l'échiquier et les pièces, je vous propose de faire ces quelques exercices afin de bien vous familiariser avec les pièces.
+
+%___________________________________________________________________________________________________________________________
+\paragraph*{Exercice 1} 
+
+Pour le premier exercice, je vous propose de prendre un échiquier et/ou Arena, et de placer tous les pions + le roi de chaque camp sans mettre les pièces.
+
+Le but de l'exercice est de faire parvenir un de vos pion à la promotion. Si vous le faite sur un échiquier, autant que possible essayez de jouer contre un autre joueur, sinon jouez contre vous même (essayez de jouer votre meilleur pour les deux camps) bien que ce ne soit pas l'idéal. Si vous utilisez Arena,vous pourrez jouer contre l'ordinateur. Le but n'est pas forcement de gagner mais de progresser à jouer avec les pions.
+
+Rappelez vous qu'un pion peut avancer, rester où il est, être bloqué par un pion ou une pièce et mangé en biais. Quand à lui le roi est indispensable et avant case par case mais il peut être un fort soutien pour vos pions.
+
+\rule{0.4\textwidth}{.4pt}
+
+\paragraph*{Exercice 2} 
+
+Pour cet exercice, vous n'aurez besoin que de l'échiquier. 
+
+\begin{enumerate}%[label=\Alph*]
+
+\item{Placez des pions noirs en b5, c6, e6, f5, e4, h3 et g2 puis un fou blanc en b3. Le but est que seul le fou joue et il doit prendre tous les pions, mais attention il doit à chaque déplacement manger un pion.}
+
+\begin{center}
+
+\def\whitepieces{Bb3}
+\chessboard[setwhite=\whitepieces,
+addblack={pb5, pc6, pe6, pf5, pe4, ph3, pg2},smallboard,showmover=false]
+
+\end{center}
+
+\item{Placez les pions blancs en b2, b8, d6, f4, f8, g7 puis un fou noir en c4. Le but est que seul le fou joue et il doit prendre tous les pions, mais attention il doit à chaque déplacement manger un pion.}
+
+\begin{center}
+
+\def\whitepieces{pb2, pb8, pd6, pf4, pf8, pg7}
+\chessboard[setwhite=\whitepieces,
+addblack={Bc4},smallboard,showmover=false]
+
+\end{center}
+
+\end{enumerate}
+
+%___________________________________________________________________________________________________________________________
+\part{Tactiques simples}
+
+\setcounter{chapter}{0}
+
+%___________________________________________________________________________________________________________________________
+\chapter{La fourchette}
+
+La fourchette est une combinaison tactique qui consiste à attaquer plusieurs pièces en même temps avec la même pièce, sans que les pièces attaquées puissent se défendre, ou prendre la pièce sans perte. La fourchette n'est valable que si la pièce qui attaque est de valeur inférieure aux pièces attaquées, ou que la pièce qui attaque ne soit pas mangeable après coup. \\
+
+Toutes les pièces peuvent faire une fourchette, toutefois les pièces légères et les pions sont plus appropriés pour effectuer cette man\oe{}uvre tactique que les pièces lourdes pour la raison de leur \og faible \fg{} valeur par rapport aux pièces lourdes. Le cavalier est la pièce la plus propice à la fourchette grâce à son déplacement particulier qui rend plus difficile l'anticipation de ses déplacements.
+
+\medskip
+
+%___________________________________________________________________________________________________________________________
+\subsection*{Fourchette avec le pion}
+
+\medskip
+
+Le pion peut, avec succès, faire une fourchette à toutes les autres pièces, grâce à sa faible valeur.
+
+\begin{center}
+
+\def\whitepieces{pe5}
+\chessboard[setwhite=\whitepieces,
+addblack={Rf7,Rd7},smallboard,showmover=false]
+
+\end{center}
+
+Dans cette position, les blancs peuvent jouer le pion en e6 et effectuer une fourchette en attaquant les deux tours.
+
+\begin{center}
+
+\def\whitepieces{pe6}
+\chessboard[setwhite=\whitepieces,
+addblack={Rf7,Rd7},smallboard,showmover=false]
+
+\end{center}
+
+Quelque soit le coup joué par les noirs, le pion va pouvoir prendre une des deux tours.
+
+%___________________________________________________________________________________________________________________________
+\subsection*{Fourchette avec le fou}
+
+Le fou peut, avec succès, faire une fourchette à toutes les pièces, toutefois contrairement au pion, sa valeur relative nous force à faire plus attention.
+
+\begin{center}
+
+\def\whitepieces{Bg2}
+\chessboard[setwhite=\whitepieces,
+addblack={pe4,Nb7,Ng6},smallboard,showmover=false]
+
+\end{center}
+
+Dans cette position, le fou en g2 peut prendre le pion en e4, ce qui aura pour conséquence la fourchette entre les cavaliers b7 et g6 qui eux ne sont pas défendus.
+
+\begin{center}
+
+\def\whitepieces{Be4}
+\chessboard[setwhite=\whitepieces,
+addblack={Nb7,Ng6},smallboard,showmover=false]
+
+\end{center}
+
+Contrairement au pion, le fou, lui, en cas de prise, sera une perte pouvant avoir de lourdes conséquences, du coup une fourchette sur un ou plusieurs pions n'aura peut-être pas l'effet désiré.
+
+Dans la position suivante, la fourchette fonctionne.
+
+\begin{center}
+
+\def\whitepieces{Bg2}
+\chessboard[setwhite=\whitepieces,
+addblack={pg6,pb7,pe4},smallboard,showmover=false]
+
+\end{center}
+
+Le fou en prenant le pion e4, soumet une fourchette sur les pions b7 et g6.
+
+\begin{center}
+
+\def\whitepieces{Be4}
+\chessboard[setwhite=\whitepieces,
+addblack={pg6,pb7},smallboard,showmover=false]
+
+\end{center}
+
+Par contre si le fou propose une fourchette sur les pions mais que ceux si sont soutenus ou protégés, la fourchette ne fonctionne pas, la valeur relative du fou étant de 3 alors que le pion ,lui , a une valeur relative de 1. Tandis que si le fou propose une fourchette à une pièce lourde, dans ce cas, la fourchette fonctionne, même si le fou est pris, puisque les pièces lourdes ont une valeur relative de 5 (pour la tour) ou de 9 (pour la dame) alors que le fou a une valeur relative de 3.
+
+%___________________________________________________________________________________________________________________________
+\subsection*{Fourchette avec le cavalier}
+
+Le cavalier peut, avec succès, faire une fourchette à toutes les pièces, c'est d'ailleurs la pièce a plus propice aux fourchettes, toutefois contrairement au pion, sa valeur relative nous force à faire plus attention.
+
+\begin{center}
+
+\def\whitepieces{Nc4}
+\chessboard[setwhite=\whitepieces,
+addblack={Rc8,Re8},smallboard,showmover=false]
+
+\end{center}
+
+Dans cette position, le cavalier en c4 peut se rendre sur d6, ce qui aura pour conséquence la fourchette entre les tours c8 et e8.
+
+\begin{center}
+
+\def\whitepieces{Nd6}
+\chessboard[setwhite=\whitepieces,
+addblack={Rc8,Re8},smallboard,showmover=false]
+
+\end{center}
+
+ Contrairement au pion, le cavalier, lui, en cas de prise, sera une perte pouvant avoir de lourdes conséquences, du coup une fourchette sur un ou plusieurs pions n'aura peut-être pas l'effet désiré.
+
+Par contre si le cavalier propose une fourchette sur les pions mais que ceux si sont soutenus ou protégés, la fourchette ne fonctionne pas, la valeur relative du cavalier étant de 3 alors que le pion ,lui , a une valeur relative de 1. Tandis que si le cavalier propose une fourchette à une pièce lourde, dans ce cas, la fourchette fonctionne, même si le cavalier est pris, puisque les pièces lourdes ont une valeur relative de 5 (pour la tour) ou de 9 (pour la dame) alors que le cavalier a une valeur relative de 3.
+
+%___________________________________________________________________________________________________________________________
+\subsection*{Fourchette avec la tour}
+
+La tour peut, avec succès, faire une fourchette à toutes les pièces, toutefois contrairement au pion et aux pièces légères, la tour étant une pièce lourde, sa valeur relative nous force à faire très attention.
+
+\begin{center}
+
+\def\whitepieces{Re1}
+\chessboard[setwhite=\whitepieces,
+addblack={Nh5,Bc5},smallboard,showmover=false]
+
+\end{center}
+
+Dans cette position, la tour en e1 peut se rendre sur e5, ce qui aura pour conséquence la fourchette entre le fou en c5 et le cavalier en h5.
+
+\begin{center}
+
+\def\whitepieces{Re5}
+\chessboard[setwhite=\whitepieces,
+addblack={Nh5,Bc5},smallboard,showmover=false]
+
+\end{center}
+
+ Contrairement au pion, le cavalier et le fou, la tour, en cas de prise, sera une perte pouvant avoir de lourdes conséquences, du coup une fourchette, sur un ou plusieurs pions, fous et cavaliers, n'aura peut-être pas l'effet désiré.
+
+Par contre si la tour propose une fourchette sur les pions, fous ou cavaliers mais que ceux si sont soutenus ou protégés, la fourchette ne fonctionne pas, la valeur relative de la tour étant de 5 alors que le pion, lui, a une valeur relative de 1, et, les cavaliers et fous, la valeur relative de 3. 
+
+%___________________________________________________________________________________________________________________________
+\subsection*{Fourchette avec la dame}
+
+La dame peut, avec succès, faire une fourchette à toutes les pièces, toutefois contrairement aux pions et autres pièces, la dame étant la pièce lourde la plus puissance, sa valeur relative nous force à faire très attention. Il est préférable de partir du principe que si l'on doit faire une fourchette avec la dame, il vaut mieux s'assurer que l'adversaire ne puisse pas prendre la dame derrière. La dame aura forcement plus de valeur que les pièces dont vous faite la fourchette.
+
+Dans l'exemple suivant, nous pouvons voir un cas de fourchette avec la dame.
+
+\begin{center}
+
+\def\whitepieces{Qd5}
+\chessboard[setwhite=\whitepieces,
+addblack={Bc5,Nc6},smallboard,showmover=false]
+
+\end{center}
+
+Dans cette position, la dame en d5 peut soit prendre le fou en c5 ou le cavalier en c6.
+
+\begin{center}
+
+\def\whitepieces{Qc5}
+\chessboard[setwhite=\whitepieces,
+addblack={Nc6},smallboard,showmover=false]
+
+\end{center}
+
+ Contrairement aux autres pièces, si votre adversaire vous prend la dame, les conséquences seront presque toujours irréversibles. La dame est la pièce la plus forte et sa perte est la plupart du temps liée à une défaite rapide. 
+
+Echanger votre dame avec celle de l'adversaire, oui... la sacrifier, dans de très rares cas c'est possible... Mais surtout ne la perdez pas !!
+ 
+%___________________________________________________________________________________________________________________________
+\subsection*{Fourchette avec le roi}
+
+Faire une fourchette avec le roi, autant vous prévenir tout de suite, ça ne vous arrivera pas souvent. Je pense même pouvoir dire que le jour où ça vous arrive, souvenez-vous-en comme étant un jour de gloire.
+
+Le roi est la pièce indispensable puisque si on le perd, on perd... du coup pour faire une fourchette avec le roi c'est réellement très compliqué.
+
+Le roi ne peut pas faire de fourchette à tout le monde. La dame, il ne peut pas s'en approcher. Les tours sont trop rapides pour lui et sauf si la tour est \og bloquée \fg, elle s'enfuirait sans aucun soucis. les fous et cavaliers peuvent subir une fourchette du roi dans des cas très particuliers. 
+
+Là où le roi a le plus grand espoir de faire une fourchette c'est avec les pions, les seuls qui avancent aussi lentement que le roi (enfin presque).
+
+Dans l'exemple qui suit, je vais vous présenter un cas de fourchette avec le roi sur des pièces mineures, et profiter de l'occasion pour présenter une manière de jouer qui n'est ni technique, ni stratégique, ni théorique mais juste comportementale. Cet exemple (contrairement aux exemples précédents) est un exemple tiré d'une position rencontrée lors d'un match joué il y a quelques années. Le joueur d'en face et moi-même étions dans ce qu'on appelle un \og zeitnot \fg, c'est à dire que, nous manquions tous les deux de temps pour jouer. Mon adversaire avait une position fou, cavalier et roi contre roi, ce qui est en théorie un gain... pas facile, mais gain. Son niveau me laissait entendre qu'il savait gagner cette position, mais étant donné le manque de temps, je décidait de continuer, après tout, j'avais tout à y gagner, puisque la partie était positionnellement perdue.
+
+Mon adversaire ayant vu que nous étions tous les deux en manque de temps, et sachant que gagner cette position risquait d'être long à mettre en \oe{]uvre, alors qu'il n'en n'avait pas autant qu'il aurait voulu, n'a tout simplement pas joué le coup qu'il aurait dû mais a \og sacrifié\fg une de ses pièces, ce qui m'a immédiatement permis la partie nulle.
+
+
+\begin{center}
+
+\def\whitepieces{Kb5}
+\chessboard[setwhite=\whitepieces,
+addblack={Kf3,Bd5,Nd4},smallboard,showmover=false]
+
+\end{center}
+
+Dans cette position, les noirs auraient pu jouer le roi en e4 ou e3 pour ensuite jouer jusqu'au gain mais au lieu de ça ils ont joué le roi en f2.
+
+\begin{center}
+
+\def\whitepieces{Kb5}
+\chessboard[setwhite=\whitepieces,
+addblack={Kf2,Bd5,Nd4},smallboard,showmover=false]
+
+\end{center}
+
+Je n'ai donc plus eu qu'à jouer mon roi en c5 pour effectuer une fourchette.
+
+\begin{center}
+
+\def\whitepieces{Kc5}
+\chessboard[setwhite=\whitepieces,
+addblack={Kf2,Bd5,Nd4},smallboard,showmover=false]
+
+\end{center}
+
+Cette fourchette m'a été permise uniquement par ce que mon adversaire n'a pas joué le bon coup, j'appelle cela le Fair-Play. Mon adversaire aurai pu jouer cette finale et au pire s'il tombait au temps, ça aurait été nulle \footnote{Dans une partie chronométrée, si un des deux joueurs perd au temps et que son adversaire n'a pas le matériel suffisent pour pouvoir mater son adversaire dans le jeu, on considère la position comme nulle.} puisque je n'avais plus aucune pièce, tandis que si c'était moi qui tombait au temps, il gagnait (je ne parle pas du mat, on sait déjà ce que ça aurait donné). Une fois la pièce prise, la nulle était prononcée car nous étions tout les deux dans l'incapacité de mater l'autre. 
+
+\subsection*{Fourchette royale}
+
+\textit{{\small \og La fourchette royale!! Cette majestueuse combinaison tactique, qui, lorsqu'elle est saintement exécutée, vous offre l'excellence divine. \fg}} \\
+
+Un délice pour celui qui la joue, un supplice pour celui qui la subit. La fourchette royale est une fourchette impliquant le roi comme \og victime \fg. Etant donné que le roi doit être protégé coûte que coûte s'il est attaqué, placer une fourchette royale permet la plupart du temps le gain matériel. 
+
+\begin{center}
+
+\def\whitepieces{Nc5}
+\chessboard[setwhite=\whitepieces,
+addblack={Kd7,Bd3,Qb3},smallboard,showmover=false]
+
+\end{center}
+
+\onecolumn
+
+\vspace*{\stretch{1}}
+
+\begin{center}
+
+\textbf{Pour le plaisir des yeux} 
+
+\end{center}
+
+\begin{center}
+
+\def\whitepieces{Nc5}
+\chessboard[setwhite=\whitepieces,
+addblack={Kd7,Re6,Qb7,Ra6,Ba4,pb3,pd3,pe4},largeboard,showmover=false]
+
+\end{center}
+
+\vspace*{\stretch{1}}
+
+\twocolumn
+
+%___________________________________________________________________________________________________________________________
+\chapter{L'enfilade}
+
+L'enfilade est une combinaison tactique qui consiste à attaquer deux pièces sur la même rangée, colonne ou diagonale. La première pièce attaquée sera généralement de plus forte valeur que la pièce qui attaque, toutefois, on peut voir des enfilades où la pièce attaquante est plus forte que la pièce attaquée mais cell-ci ne pouvant pas défendre la pièce derrière elle, le gain se fera malgré tout.
+
+\begin{center}
+
+\def\whitepieces{Bg2}
+\chessboard[setwhite=\whitepieces,
+addblack={Qe4, Rb7},smallboard,showmover=false]
+
+\end{center}
+
+Dans cet exemple, le fou en g2 attaque le dame directement mais également la tour, on appelle ça être pris en enfilade. Les noirs ont le choix entre laisser la dame et la perdre, ou, enlever la dame et perdre la tour.
+
+Seuls les fous, tours et dames peuvent effectuer une enfilade. Les cavaliers, rois et pions n'en n'ont pas la possibilité vu leurs moyens respectifs de déplacement, par conte toutes les pièces et pions peuvent la subir.
+
+\begin{center}
+
+\def\whitepieces{Re2}
+\chessboard[setwhite=\whitepieces,
+addblack={Ne4, Be7},smallboard,showmover=false]
+
+\end{center}
+
+Dans cet exemple, la pièce attaquante est de valeur supérieure que la pièce attaquée mais ni la pièce attaquée, ni la pièce de derrière ne peut être défendue.
+
+%___________________________________________________________________________________________________________________________
+\chapter{Le rayons-X}
+
+L'attaque rayon-X est une man\oe{}uvre tactique qui consiste non pas a attaquer une pièce ou un pion, mais une case qui elle se situe derrière une pièce ou un pion.
+
+Dans l'exemple suivant, les blancs attaquent la dame en f6, mais leur vraie menace (et but) est la case h8.
+
+\begin{center}
+
+\def\whitepieces{Kb1,Rh2,Rh1,Bb2,pf2,pg3,pa2,pb3,pc2}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Qf6,Rf8,Ra8,Bb7,pa7,pb6,pf7,pg6},smallboard,showmover=false]
+
+\end{center}
+
+\wmove{Rh8}
+
+\begin{center}
+
+\def\whitepieces{Kb1,Rh1,Rh8,Bb2,pf2,pg3,pa2,pb3,pc2}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Qf6,Rf8,Ra8,Bb7,pa7,pb6,pf7,pg6},smallboard,showmover=false]
+
+\end{center}
+
+Et maintenant, nous voyons que les noirs ont le choix entre la dame qui prend la tour en h8, et le roi qui monte en g7. Dans les deux cas, les blancs gagnent.
+
+A noter qu'en jouant \wmove{BxQf6} les blancs auraient obtenus le même résultat.
+
+%___________________________________________________________________________________________________________________________
+\chapter{L'attaque, l'échec à la découverte}
+
+L'attaque à la découverte, et l'échec à la découverte, sont deux attaques qui ont le même principe et dont la seule différence est la pièce attaquée. On parle d'attaque à la découverte si l'on attaque un pion, un cavalier, un fou, une tour ou une dame. on parle d’échec à la découverte si c'est le roi. Si c'est un échec à la découverte, cela oblige le camp adverse à défendre son roi avant de pouvoir jouer un autre coup, ce qui peut donner un avantage conséquent.
+
+\subsection*{L'attaque à la découverte}
+
+L'attaque à la découverte est une attaque qui consiste à jouer une pièce qui permettra à une autre pièce, placée derrière celle-ci, de se découvrir et d'attaquer au moins une pièce ou un pion adverse. La pièce placée derrière sera une pièce à longue portée (fou, tour, dame), par contre la pièce qui sera déplacée pourra être n'importe quelle pièce ou pion.
+
+\begin{center}
+
+\def\whitepieces{Qe2,Ne4}
+\chessboard[setwhite=\whitepieces,
+addblack={Be8,Rh3},smallboard,showmover=false]
+
+\end{center}
+
+Dans cet exemple, nous pouvons voir qu'en bougeant le cavalier, les blancs permettent à la dame d'attaquer le fou tout en attaquant la tour avec le cavalier. Toutefois, si la menace de la découverte est une arme puissante, son exécution n'est pas forcément possible. Dans cet exemple, la menace est de prendre une des deux pièces mais la tour peut aisément venir défendre le fou, et vu la valeur de la dame, la prise ne sera pas possible car si la dame prend le fou (valeur relative de 3), dans ce cas la tour pourra reprendre la dame (valeur relative de 9). Nous pouvons dire que dans la position suivante, les blancs ne prendront certainement pas le fou. Par contre les blancs ont forcé le retour en défense de la tour, ce qui peut s'avérer donner un avantage.
+
+\begin{center}
+
+\def\whitepieces{Qe2,Ng5}
+\chessboard[setwhite=\whitepieces,
+addblack={Be8,Rh3},smallboard,showmover=false]
+
+\end{center}
+
+Dans la position suivante la découverte gagnerai la pièce car la tour ne pourrait dans ce cas pas revenir en défense.
+
+\begin{center}
+
+\def\whitepieces{Qe5,Ne6}
+\chessboard[setwhite=\whitepieces,
+addblack={Be8,Rh3},smallboard,showmover=false]
+\wmove{Nf4}
+
+\end{center}
+
+\subsection*{L'échec à la découverte}
+
+L'échec à la découverte, contrairement à l'attaque à la découverte, oblige le joueur, qui subit l'échec, à protéger son roi avant tout. L'échec à la découverte est très souvent synonyme de gain de matériel.
+
+\begin{center}
+
+\def\whitepieces{Qd1,Nd6}
+\chessboard[setwhite=\whitepieces,
+addblack={Kd8,Rc3},smallboard,showmover=false]
+
+\end{center}
+
+Dans cet exemple, le cavalier va pouvoir attaquer la tour pendant que la dame attaque le roi. Etant donné que les noirs doivent défendre le roi avant tout, la tour va être perdue.
+
+%___________________________________________________________________________________________________________________________
+\chapter{Le moulinet}
+
+Le moulinet est une man\oe{}uvre tactique qui permet à un joueur d’enchaîner les échecs à la découverte. Cette man\oe{}uvre permet souvent à vider l'échiquier.
+
+\begin{center}
+
+\def\whitepieces{Kg1,Rg3,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Bd7,Nf8,pg7,pf7,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+
+\end{center}
+
+Dans cette position, les blancs commencent par prendre le pion en g7 avec la tour et amorcent une succession d'échecs à la découverte. 
+
+\begin{center}
+
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Bd7,Nf8,pf7,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+
+\end{center}
+
+Après le mouvement du roi noir en h8, 
+
+\begin{center}
+
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6,pf7},smallboard,showmover=false]
+
+\end{center}
+
+les blancs n'ont plus qu'à jouer \wmove{Rf7}.
+
+\begin{center}
+
+\def\whitepieces{Kg1,Rf7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+
+\end{center}
+
+\bmove{Kg8}
+
+\begin{center}
+
+\def\whitepieces{Kg1,Rf7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+
+\end{center}
+
+\wmove{Rg7}
+
+\begin{center}
+
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kg8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+
+\end{center}
+
+\bmove{Kh8}
+
+\begin{center}
+
+\def\whitepieces{Kg1,Rg7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Bd7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+
+\end{center}
+
+\wmove{RxBd7}
+
+\begin{center}
+
+\def\whitepieces{Kg1,Rd7,Be5,pa2,pb2,pc2,pf2,pg2,ph3,Qd1,Be2,Nf3}
+\chessboard[setwhite=\whitepieces,
+addblack={Kh8,Ra8,Ba7,Nf8,pc7,pb7,Qd8,pa6,ph6},smallboard,showmover=false]
+
+\end{center}
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'assistance mutuelle}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'assistance mutuelle indirecte}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'attaque double}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'attraction}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{Le blocage}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{Le clouage}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{Le clouage en croisé}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{La contre-attaque}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{Le coup de repos}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{Le coup intermédiaire}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{Le déclouage}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{Le dégagement}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'écart}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'échec double}
+
+\lipsum[4]
+\chapter{L'échec intermédiaire}
+%___________________________________________________________________________________________________________________________
+
+\lipsum[4]
+\chapter{L'élimination de l'attaquant}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'élimination du défenseur}
+
+%___________________________________________________________________________________________________________________________
+
+\lipsum[4]
+\chapter{L'évacuation}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'interception}
+\lipsum[4]
+
+\chapter{L'interposition}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{La menace double}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'obstruction}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{L'opposition}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{La surcharge}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+\chapter{Le zugzwang}
+
+\lipsum[4]
+%___________________________________________________________________________________________________________________________
+
+
+\part{Les mats simples}
+%___________________________________________________________________________________________________________________________
+
+\setcounter{chapter}{0}
+
+\chapter{Mat avec la tour}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat avec 2 tours}
+  
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+	
+\chapter{Mat avec la dame}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat avec 2 fous}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat avec fou et cavalier}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat avec 2 cavaliers}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat avec roi et pions}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat avec fou et pion}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat avec cavalier et pion}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\part{Tableaux de mat}
+%___________________________________________________________________________________________________________________________
+
+\setcounter{chapter}{0}
+
+\chapter{Mat du sot}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat du berger}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat de Legall}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat arabe}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat de l'angle}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat du baiser de la mort}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat d'Anderssen}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat de Damiano}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat de Greco}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat de Pillsbury}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat de Lolli}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat des épaulettes}
+ 
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat du gueridon}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+ 
+\chapter{Mat de Boden}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+ 
+\chapter{Mat d'Anastasie}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+ 
+\chapter{Mat de Morphy}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+ 
+\chapter{Mat de Blackburne}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat de Mayet}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+ 
+\chapter{Mat de l'opéra}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\chapter{Mat de Réti}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+ 
+\chapter{Mat de Calabrais}
+
+Le roi ne peut pas passer au-dessus les autres pièces, quelles soient adverses ou non. Le roi mange de la manière dont il se déplace en prenant la place de la pièce mangée. 
+
+%___________________________________________________________________________________________________________________________
+
+\onecolumn
+
+\newpage \thispagestyle{empty}
+\strut
+\newpage \thispagestyle{empty}
+
+\twocolumn
+
+\part{Commencer à jouer}
+%___________________________________________________________________________________________________________________________
+
+\onecolumn
+
+\newpage \thispagestyle{empty}
+\strut
+\newpage \thispagestyle{empty}
+
+\twocolumn
+
+\setcounter{chapter}{0}
+
+\chapter{Les 3 phases de jeu}
+
+Aux échecs, lors d'une partie, il y a 3 phases :
+
+\begin{enumerate}
+
+\item{L'ouverture}
+
+\item{Le milieu}
+
+\item{La finale}
+
+\end{enumerate}
+
+Nous allons maintenant, ensemble, voir des règles établies par des grands maîtres, et qui nous permettent de jouer ces 3 phases avec des position convenables. Ces règles ne sont pas absolues et peuvent de manière ponctuelle être dérogées, sans que cela ne nous pénalise, mais il est intéressant de s’évertuer à les respecter tant elles nous aident dans la grande majorité des cas. Pendant la durée de votre apprentissage des bases, je vous invite à les respecter strictement afin de vous familiariser avec, quitte à tomber une fois par ci sur une position qui nécessite à déroger à la règle car dans la grande majorité des cas ces règles vous permettront de jouer un coup correct, voir LE bon coup.
+
+\section{Les ouvertures}
+%___________________________________________________________________________________________________________________________
+
+L'ouverture est la phase de départ de toute partie. Si vous démarrez mal la partie, vous vous retrouverez très vite dans une position inférieure à votre adversaire et devrez passer votre temps à essayer de redresser la situation. En faisant une ouverture correcte, vous préservez vos chances lors des autres phases, le milieu et la finale.
+
+Vous pourrez trouver dans le commerce de multitudes ressources vous présentant telle ou telle ouverture, je ne présenterai pas d'ouverture spécifique dans cet ouvrage, mais vous présente les règle générales d'ouvertures. 
+
+Comme dit l'adage, donne un poisson à une personne qui à faim et tu lui permettra de se nourrir pour un repas, apprend lui à pêcher et tu lui permettra de se nourrir tout seul.
+
+Aux échecs c'est la même chose, si on vous présente une ouverture, on vous apprends à faire une partie, si on vous présente les règles, on vous permets de jouer toutes vos parties. 
+
+\subsection{Les 10 règles d'ouverture}
+%___________________________________________________________________________________________________________________________
+
+\medskip
+
+\begin{enumerate}
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+\item \qquad \textbf{Ouvrez avec un pion central.}
+
+\medskip
+
+\qquad Imaginez l'échiquier comme une petite colline. Les cases e4, d4, e5 et d5 en sont le sommet. Placez vos pions sur une ou plusieurs de ces cases ainsi vous dominerez "le centre" ce qui vous aidera à prévenir toute attaque sur les ailes. \\
+
+\qquad Cela vous aidera aussi à contre-attaquer une offensive à l'aile si votre adversaire n'a pas pris la précaution de "verrouiller" le centre avant. \\
+%
+%\begin{multicols}{3}
+
+\begin{center}
+
+\newchessgame
+\mainline{1.d4}
+\setchessboard{smallboard,shortenstart=-1ex,padding=1ex,linewidth=0.3em,pgfstyle=leftborder,color=red,markregion=\mycenter,pgfstyle=topborder,color=blue,markregion=\mycenter,pgfstyle=rightborder,color=green,markregion=\mycenter,pgfstyle=bottomborder,color=yellow,markregion=\mycenter}
+\def\mycenter{d4-e5}
+\chessboard[showmover=false]
+
+\end{center}
+%
+%\columnbreak
+
+\begin{center}
+%
+%\vspace*{\stretch{1}}
+%
+%ou
+%
+%\vspace*{\stretch{1}}
+
+\end{center}
+%
+%\columnbreak
+
+\begin{center}
+
+\newchessgame
+\mainline{1.e4}
+\setchessboard{smallboard,shortenstart=-1ex,padding=1ex,linewidth=0.3em,pgfstyle=leftborder,color=red,markregion=\mycenter,pgfstyle=topborder,color=blue,markregion=\mycenter,pgfstyle=rightborder,color=green,markregion=\mycenter,pgfstyle=bottomborder,color=yellow,markregion=\mycenter}
+\def\mycenter{d4-e5}
+\chessboard[showmover=false]
+\end{center}
+%
+%\end{multicols}
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+\item \qquad \textbf{D\'{e}veloppez vos pi\`{e}ces en cr\'{e}ant des menaces.}
+
+\medskip
+
+\qquad Tous les coups avec lesquels vous arriverez à cr\'{e}er une menace forceront votre adversaire à répondre en conséquence et cela finira par perturber son développement. Lorsque vous développez vos pièces, pensez toujours à forcer l'adversaire dans ses choix car plus son choix sera restreint plus il vous sera facile de dominer la position.
+
+\begin{center}
+\newchessgame
+\hidemoves{1.e4 e5 2.Nf3}
+\mainline{}
+
+\chessboard[smallboard,markstyle=knightmove,color=blue,
+markmove=f3-e5,showmover=false]
+
+\end{center}
+
+Dans cet exemple, le cavalier attaque le pion adverse et le joueur des noirs doit jouer en conséquence.
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+\item \qquad \textbf{Sortez les cavaliers avant les fous.}
+
+\medskip
+
+\qquad A partir de sa case initiale, le cavalier dispose de 3 cases de développement alors que le fou dispose de 7 cases. Pour le cavalier, parmi les 3 cases possibles seules 2 sont logiques et respectent les règles d'ouvertures que nous sommes en train de voir. La 3ème, place le cavalier au bord de l'échiquier et va à l'encontre de la centralisation des pièces.
+
+\qquad Pour le fou, sur les 7 cases possibles, 5 d'entre-elles semblent respecter les règles et centralisent la pièce. Si nous sortons systématiquement un fou en premier, nous indiquons à notre adversaire l'adresse de destination que nous souhaitons lui donner et notre adversaire pourra jouer en cons\'{e}quence. Pour les cavaliers, le choix de leur adresse est plus simple. Deux possibilit\'{e}s logiques seulement. Par cons\'{e}quent, sortons les cavaliers, étant donné que leur adresse semble être connue et que peu de suspens subsiste. Ainsi il semble donc préférable de sortir les cavaliers avant les fous afin de préserver le suspens de leur adresse et de gêner le plus possible l'adversaire.
+
+\begin{center}
+
+\newchessgame
+\hidemoves{1.e4 d6 2.d4 e6 3.g3 g6 4.b3 b6}
+\mainline{}
+\chessboard[smallboard,pgfstyle=straightmove,color=gray,markmove=c1-h6, markmove=f1-a6, markmove=c1-a3, markmove=f1-h3,arrow=to,linewidth=0.2ex,color=orange,pgfstyle=knightmove,
+markmoves={g1-f3, g1-e2,g1-h3},markmoves={b1-c3, b1-d2,b1-a3},shortenstart=-1ex,showmover=false]
+
+\end{center}
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+
+\item \qquad \textbf{Ne déplacez pas la même pièce deux fois dans l'ouverture.} 
+
+\medskip
+
+\qquad Chaque pi\`{e}ce attaqu\'{e}e par une autre pi\`{e}ce ou pion d'une valeur inf\'{e}rieure devra \`{a} nouveau \^{e}tre d\'{e}plac\'{e}e, il est donc pr\'{e}f\'{e}rable de s'assurer que sa destination soit saine.
+
+\begin{center}
+
+\newchessgame
+
+\mainline{1.e4 e5 2.Qh5 Nf6 3.Qf3 d6 4.Nc3 Bg4 5.Qd3 Nc6}
+\chessboard[smallboard,showmover=false]
+
+\end{center}
+
+\qquad Dans cet exemple, nous voyons les blancs déplacer 3 fois la dame alors que les noirs développent leurs pièces. Ceci aurait pu être évité, si les blancs avaient anticip\'{e} le fait que les déplacements de leur pièce allaient être suivis par des attaques provenant des pièces de l'adversaire.
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 5 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+
+\item \qquad \textbf{Faites le moins de mouvements de pion possible dans l'ouverture.}
+
+\medskip
+
+\qquad Lors de la phase d'ouverture, vous jouez une course dans laquelle vous devez prendre le contrôle du plus de cases possibles (de pr\'{e}f\'{e}rence centrales), avant que votre adversaire le fasse lui-m\^{e}me. Si vous jouez trop de coups de pion, vous prenez le risque que votre adversaire en profite pour sortir ses pièces et prendre le controle des cases avec celles-ci. Autant que possible, essayez de ne pas jouer plus de 2 ou 3 coups de pions pendant la phase d'ouverture, ou au pire des cas essayez de ne jouer pas plus d'un coup de pion de plus que votre adversaire.
+
+\qquad Dans cet exemple, les noirs d\'{e}laissent le d\'{e}veloppement de leurs pi\`{e}ces pendant que les blancs se d\'{e}veloppement tout en cr\'{e}ant des menaces.
+%
+%\begin{multicols}{2}
+
+\newchessgame
+\mainline{1. e4 e5 2. Nc3 f5 3. exf5 d5 4. Qh5+ Ke7}
+\chessboard[smallboard,showmover=true]
+%
+%\columnbreak
+
+\newchessgame
+
+\hidemoves{1.e4 e5 2.Nc3 f5 3.exf5 d5 4.Qh5+ Ke7}
+\mainline{5.d4 exd4 6.Bg5+ Nf6 7.Qe2+ Kd7 8.Qe6#}
+\chessboard[smallboard,showmover=false]
+%
+%\end{multicols}
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 6 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+
+\item \qquad \textbf{Ne sortez pas la reine trop tôt.}
+
+\medskip
+
+\qquad Pour illustrer cette règle je vous invite avant tout à revoir la position présentée lors de la règle 4. La dame est la pièce la plus puissante et sa perte est dans la plupart des cas synonyme de défaite.\\
+
+\qquad Plus tard vous sortez la dame, plus tard vous l'exposez à des attaques. Voir même, suivant les placements des pièces adverses, avoir retardé sa sortie peut permettre un gain positionnel, voir tactique.
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 7 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+
+\item \qquad \textbf{Roquez le plus tôt possible, de préférence du coté de l'aile roi.}
+
+\medskip
+
+\qquad Si le fait d'être au centre en finale permet au roi de montrer toute sa puissance, pendant la phase de l'ouverture et du milieu de partie le roi doit être protégé co\^{u}te que co\^{u}te. Le roque est souvent le meilleur moyen de s'assurer qu'il est à l'abri pendant ces deux phases. Plus vite vous roquez, plus vite votre roi est à l'abri et vous pouvez déployer votre jeu.
+
+\begin{center}
+
+\newchessgame
+\mainline{1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. O-O Bc5 5.Nc3 O-O}
+\chessboard[smallboard,showmover=false]
+
+\end{center}
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 8 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+
+\item \qquad \textbf{Jouez toujours pour prendre le contrôle du centre.}
+
+\medskip
+
+\qquad Si parmi les dix règles que vous êtes en train de lire, vous ne deviez en retenir qu'une (même s'il est très fortement conseillé de toutes les retenir) ce doit être celle-ci. Tant que vous avez le contrôle du centre, vous ma\^{i}trisez la partie, du coup votre adversaire aura beaucoup de mal à vous attaquer.\\
+
+\qquad En début de partie, le centre est primordial.
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 9 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+\item \qquad \textbf{Essayez de maintenir au moins un pion au centre.}
+
+\medskip
+
+\qquad Tout est dans le titre.\\
+
+\qquad Garder un pion au centre assure votre présence dans cette zone de jeu. Si vous ne vous assurez pas une présence dans cette zone de jeu, Votre attaque sur l'une des ailes risque d'\^{e}tre fortement compromise.\textbf{ D'autant plus si votre adversaire contr\^{o}le, lui, le centre, \`{a} partir duquel il pourra m\^{e}me vous \'{e}touffer.}
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 10 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+
+
+\item \qquad \textbf{Ne sacrifiez pas de pion sans raison claire et ad\'{e}quate.} 
+
+\medskip
+
+\qquad Pour un pion sacrifi\'{e}, vous devez:
+
+\medskip
+
+\begin{itemize}
+
+\item[\textbullet] Gagner trois tempi, ou
+\item[\textbullet] D\'{e}vier la reine ennemie, ou
+\item[\textbullet] retarder le roque, ou
+\item[\textbullet] Construire une attaque forte.
+
+\end{itemize}
+
+\bigskip
+
+\qquad \textbf{Si aucune de ces 4 conditions n'est respect\'{e}e, ne sacrifiez pas.}
+
+%\end{color}
+
+\end{enumerate}
+
+
+
+%\appendix
+%
+%\chapter{The First Appendix}
+%
+%
+%
+\backmatter
+%
+%\chapter{Afterword}
+
+
+\end{document}
